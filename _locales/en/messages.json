@@ -52,5 +52,95 @@
   },
   "footerInspiredBy": {
     "message": "Inspired by"
+  },
+  "linkAdvancedOptions": {
+    "message": "Advanced Options"
+  },
+  "optionsPageTitle": {
+    "message": "Hover Zoom - Options"
+  },
+  "optionsHeaderTitle": {
+    "message": "Hover Zoom - Options"
+  },
+  "optionsHeaderDescription": {
+    "message": "Manage extension permissions and settings"
+  },
+  "optionsWelcomeTitle": {
+    "message": "🎉 Welcome to Hover Zoom!"
+  },
+  "optionsWelcomeThanks": {
+    "message": "Thank you for installing Hover Zoom!"
+  },
+  "optionsWelcomeDefaultSettings": {
+    "message": "The extension has been configured with default settings:"
+  },
+  "optionsWelcomeExtensionEnabled": {
+    "message": "✅ Extension enabled"
+  },
+  "optionsWelcomeZoomMode": {
+    "message": "✅ Zoom mode: Natural (next to cursor)"
+  },
+  "optionsWelcomeZoomFactor": {
+    "message": "✅ Zoom factor: 2x"
+  },
+  "optionsWelcomeFullUsage": {
+    "message": "To use the extension fully:"
+  },
+  "optionsWelcomeStep1": {
+    "message": "Grant permissions below so the extension works on all sites"
+  },
+  "optionsWelcomeStep2": {
+    "message": "Simply hover over an image on any web page"
+  },
+  "optionsWelcomeStep3": {
+    "message": "Press Escape to close the zoom"
+  },
+  "optionsWelcomeCloseButton": {
+    "message": "Got it! 👍"
+  },
+  "optionsPermissionsTitle": {
+    "message": "Website Access Permissions"
+  },
+  "optionsPermissionsWhyTitle": {
+    "message": "Why is this permission needed?"
+  },
+  "optionsPermissionsWhyDescription": {
+    "message": "Hover Zoom needs to access web pages to detect images and display previews. Without this permission, the extension can only work on the current active page."
+  },
+  "optionsPermissionsGrantButton": {
+    "message": "Grant permissions to all sites"
+  },
+  "optionsPermissionsRevokeButton": {
+    "message": "Revoke permissions"
+  },
+  "optionsExtensionStateTitle": {
+    "message": "Extension Status"
+  },
+  "optionsReinjectButton": {
+    "message": "Reactivate on all open tabs"
+  },
+  "optionsReinjectDescription": {
+    "message": "Use this button if the extension doesn't work on already open tabs."
+  },
+  "optionsInfoTitle": {
+    "message": "Information"
+  },
+  "optionsInfoVersion": {
+    "message": "Version:"
+  },
+  "optionsInfoStatus": {
+    "message": "Status:"
+  },
+  "optionsInfoActivationProblemTitle": {
+    "message": "Activation problem?"
+  },
+  "optionsInfoActivationStep1": {
+    "message": "Grant permissions above"
+  },
+  "optionsInfoActivationStep2": {
+    "message": "Reload pages where the extension doesn't work"
+  },
+  "optionsInfoActivationStep3": {
+    "message": "Use the \"Reactivate on all open tabs\" button"
   }
 }

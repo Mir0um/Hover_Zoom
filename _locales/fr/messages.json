@@ -52,5 +52,95 @@
   },
   "footerInspiredBy": {
     "message": "Inspiré par"
+  },
+  "linkAdvancedOptions": {
+    "message": "Options avancées"
+  },
+  "optionsPageTitle": {
+    "message": "Hover Zoom - Options"
+  },
+  "optionsHeaderTitle": {
+    "message": "Hover Zoom - Options"
+  },
+  "optionsHeaderDescription": {
+    "message": "Gérez les permissions et paramètres de l'extension"
+  },
+  "optionsWelcomeTitle": {
+    "message": "🎉 Bienvenue dans Hover Zoom !"
+  },
+  "optionsWelcomeThanks": {
+    "message": "Merci d'avoir installé Hover Zoom !"
+  },
+  "optionsWelcomeDefaultSettings": {
+    "message": "L'extension a été configurée avec les paramètres par défaut :"
+  },
+  "optionsWelcomeExtensionEnabled": {
+    "message": "✅ Extension activée"
+  },
+  "optionsWelcomeZoomMode": {
+    "message": "✅ Mode de zoom : Natural (à côté du curseur)"
+  },
+  "optionsWelcomeZoomFactor": {
+    "message": "✅ Facteur de zoom : 2x"
+  },
+  "optionsWelcomeFullUsage": {
+    "message": "Pour utiliser pleinement l'extension :"
+  },
+  "optionsWelcomeStep1": {
+    "message": "Accordez les permissions ci-dessous pour que l'extension fonctionne sur tous les sites"
+  },
+  "optionsWelcomeStep2": {
+    "message": "Survolez simplement une image sur n'importe quelle page web"
+  },
+  "optionsWelcomeStep3": {
+    "message": "Appuyez sur Échap pour fermer le zoom"
+  },
+  "optionsWelcomeCloseButton": {
+    "message": "C'est compris ! 👍"
+  },
+  "optionsPermissionsTitle": {
+    "message": "Permissions d'accès aux sites web"
+  },
+  "optionsPermissionsWhyTitle": {
+    "message": "Pourquoi cette permission est-elle nécessaire ?"
+  },
+  "optionsPermissionsWhyDescription": {
+    "message": "Hover Zoom a besoin d'accéder aux pages web pour détecter les images et afficher les aperçus. Sans cette permission, l'extension ne peut fonctionner que sur la page active actuelle."
+  },
+  "optionsPermissionsGrantButton": {
+    "message": "Accorder les permissions à tous les sites"
+  },
+  "optionsPermissionsRevokeButton": {
+    "message": "Révoquer les permissions"
+  },
+  "optionsExtensionStateTitle": {
+    "message": "État de l'extension"
+  },
+  "optionsReinjectButton": {
+    "message": "Réactiver sur tous les onglets ouverts"
+  },
+  "optionsReinjectDescription": {
+    "message": "Utilisez ce bouton si l'extension ne fonctionne pas sur les onglets déjà ouverts."
+  },
+  "optionsInfoTitle": {
+    "message": "Informations"
+  },
+  "optionsInfoVersion": {
+    "message": "Version :"
+  },
+  "optionsInfoStatus": {
+    "message": "Statut :"
+  },
+  "optionsInfoActivationProblemTitle": {
+    "message": "Problème d'activation ?"
+  },
+  "optionsInfoActivationStep1": {
+    "message": "Accordez les permissions ci-dessus"
+  },
+  "optionsInfoActivationStep2": {
+    "message": "Rechargez les pages où l'extension ne fonctionne pas"
+  },
+  "optionsInfoActivationStep3": {
+    "message": "Utilisez le bouton \"Réactiver sur tous les onglets ouverts\""
   }
 }

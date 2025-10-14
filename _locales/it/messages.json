@@ -52,5 +52,95 @@
   },
   "footerInspiredBy": {
     "message": "Ispirato da"
+  },
+  "linkAdvancedOptions": {
+    "message": "Opzioni avanzate"
+  },
+  "optionsPageTitle": {
+    "message": "Hover Zoom - Opzioni"
+  },
+  "optionsHeaderTitle": {
+    "message": "Hover Zoom - Opzioni"
+  },
+  "optionsHeaderDescription": {
+    "message": "Gestisci autorizzazioni e impostazioni dell'estensione"
+  },
+  "optionsWelcomeTitle": {
+    "message": "🎉 Benvenuto in Hover Zoom!"
+  },
+  "optionsWelcomeThanks": {
+    "message": "Grazie per aver installato Hover Zoom!"
+  },
+  "optionsWelcomeDefaultSettings": {
+    "message": "L'estensione è stata configurata con le impostazioni predefinite:"
+  },
+  "optionsWelcomeExtensionEnabled": {
+    "message": "✅ Estensione abilitata"
+  },
+  "optionsWelcomeZoomMode": {
+    "message": "✅ Modalità zoom: Naturale (accanto al cursore)"
+  },
+  "optionsWelcomeZoomFactor": {
+    "message": "✅ Fattore di zoom: 2x"
+  },
+  "optionsWelcomeFullUsage": {
+    "message": "Per utilizzare completamente l'estensione:"
+  },
+  "optionsWelcomeStep1": {
+    "message": "Concedi le autorizzazioni sottostanti affinché l'estensione funzioni su tutti i siti"
+  },
+  "optionsWelcomeStep2": {
+    "message": "Passa semplicemente il mouse su un'immagine in qualsiasi pagina web"
+  },
+  "optionsWelcomeStep3": {
+    "message": "Premi Escape per chiudere lo zoom"
+  },
+  "optionsWelcomeCloseButton": {
+    "message": "Capito! 👍"
+  },
+  "optionsPermissionsTitle": {
+    "message": "Autorizzazioni di accesso ai siti web"
+  },
+  "optionsPermissionsWhyTitle": {
+    "message": "Perché questa autorizzazione è necessaria?"
+  },
+  "optionsPermissionsWhyDescription": {
+    "message": "Hover Zoom ha bisogno di accedere alle pagine web per rilevare le immagini e mostrare le anteprime. Senza questa autorizzazione, l'estensione può funzionare solo sulla pagina attiva corrente."
+  },
+  "optionsPermissionsGrantButton": {
+    "message": "Concedi permessi a tutti i siti"
+  },
+  "optionsPermissionsRevokeButton": {
+    "message": "Revoca permessi"
+  },
+  "optionsExtensionStateTitle": {
+    "message": "Stato dell'estensione"
+  },
+  "optionsReinjectButton": {
+    "message": "Riattiva su tutte le schede aperte"
+  },
+  "optionsReinjectDescription": {
+    "message": "Usa questo pulsante se l'estensione non funziona sulle schede già aperte."
+  },
+  "optionsInfoTitle": {
+    "message": "Informazioni"
+  },
+  "optionsInfoVersion": {
+    "message": "Versione:"
+  },
+  "optionsInfoStatus": {
+    "message": "Stato:"
+  },
+  "optionsInfoActivationProblemTitle": {
+    "message": "Problema di attivazione?"
+  },
+  "optionsInfoActivationStep1": {
+    "message": "Concedi i permessi sopra"
+  },
+  "optionsInfoActivationStep2": {
+    "message": "Ricarica le pagine dove l'estensione non funziona"
+  },
+  "optionsInfoActivationStep3": {
+    "message": "Usa il pulsante \"Riattiva su tutte le schede aperte\""
   }
 }

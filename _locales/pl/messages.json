@@ -52,5 +52,95 @@
   },
   "footerInspiredBy": {
     "message": "Zainspirowane przez"
+  },
+  "linkAdvancedOptions": {
+    "message": "Opcje zaawansowane"
+  },
+  "optionsPageTitle": {
+    "message": "Hover Zoom - Opcje"
+  },
+  "optionsHeaderTitle": {
+    "message": "Hover Zoom - Opcje"
+  },
+  "optionsHeaderDescription": {
+    "message": "Zarządzaj uprawnieniami i ustawieniami rozszerzenia"
+  },
+  "optionsWelcomeTitle": {
+    "message": "🎉 Witamy w Hover Zoom!"
+  },
+  "optionsWelcomeThanks": {
+    "message": "Dziękujemy za zainstalowanie Hover Zoom!"
+  },
+  "optionsWelcomeDefaultSettings": {
+    "message": "Rozszerzenie zostało skonfigurowane z ustawieniami domyślnymi:"
+  },
+  "optionsWelcomeExtensionEnabled": {
+    "message": "✅ Rozszerzenie włączone"
+  },
+  "optionsWelcomeZoomMode": {
+    "message": "✅ Tryb powiększenia: Naturalny (obok kursora)"
+  },
+  "optionsWelcomeZoomFactor": {
+    "message": "✅ Współczynnik powiększenia: 2x"
+  },
+  "optionsWelcomeFullUsage": {
+    "message": "Aby w pełni korzystać z rozszerzenia:"
+  },
+  "optionsWelcomeStep1": {
+    "message": "Udziel poniższych uprawnień, aby rozszerzenie działało na wszystkich stronach"
+  },
+  "optionsWelcomeStep2": {
+    "message": "Po prostu najedź myszą na obraz na dowolnej stronie internetowej"
+  },
+  "optionsWelcomeStep3": {
+    "message": "Naciśnij Escape, aby zamknąć powiększenie"
+  },
+  "optionsWelcomeCloseButton": {
+    "message": "Rozumiem! 👍"
+  },
+  "optionsPermissionsTitle": {
+    "message": "Uprawnienia dostępu do stron internetowych"
+  },
+  "optionsPermissionsWhyTitle": {
+    "message": "Dlaczego to uprawnienie jest potrzebne?"
+  },
+  "optionsPermissionsWhyDescription": {
+    "message": "Hover Zoom potrzebuje dostępu do stron internetowych do wykrywania obrazów i wyświetlania podglądów. Bez tego uprawnienia rozszerzenie może działać tylko na bieżącej aktywnej stronie."
+  },
+  "optionsPermissionsGrantButton": {
+    "message": "Przyznaj uprawnienia wszystkim witrynom"
+  },
+  "optionsPermissionsRevokeButton": {
+    "message": "Cofnij uprawnienia"
+  },
+  "optionsExtensionStateTitle": {
+    "message": "Stan rozszerzenia"
+  },
+  "optionsReinjectButton": {
+    "message": "Reaktywuj na wszystkich otwartych kartach"
+  },
+  "optionsReinjectDescription": {
+    "message": "Użyj tego przycisku, jeśli rozszerzenie nie działa na już otwartych kartach."
+  },
+  "optionsInfoTitle": {
+    "message": "Informacje"
+  },
+  "optionsInfoVersion": {
+    "message": "Wersja:"
+  },
+  "optionsInfoStatus": {
+    "message": "Status:"
+  },
+  "optionsInfoActivationProblemTitle": {
+    "message": "Problem z aktywacją?"
+  },
+  "optionsInfoActivationStep1": {
+    "message": "Przyznaj uprawnienia powyżej"
+  },
+  "optionsInfoActivationStep2": {
+    "message": "Odśwież strony, na których rozszerzenie nie działa"
+  },
+  "optionsInfoActivationStep3": {
+    "message": "Użyj przycisku \"Reaktywuj na wszystkich otwartych kartach\""
   }
 }

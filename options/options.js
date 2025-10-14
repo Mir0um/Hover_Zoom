@@ -1,4 +1,12 @@
 document.addEventListener('DOMContentLoaded', async () => {
+    // Set page language and localize content
+    document.documentElement.lang = chrome.i18n.getUILanguage();
+    
+    // Translate page title
+    document.title = chrome.i18n.getMessage('optionsPageTitle');
+    
+    localizeHtml();
+    
     const permissionsStatus = document.getElementById('permissions-status');
     const extensionStatus = document.getElementById('extension-status');
     const grantButton = document.getElementById('grant-permissions');
@@ -6,10 +14,34 @@ document.addEventListener('DOMContentLoaded', async () => {
     const reinjectButton = document.getElementById('reinject-scripts');
     const versionSpan = document.getElementById('version');
     const statusSpan = document.getElementById('status');
+    const welcomeMessage = document.getElementById('welcome-message');
+    const closeWelcomeButton = document.getElementById('close-welcome');
 
     // Afficher la version
     const manifest = chrome.runtime.getManifest();
     versionSpan.textContent = manifest.version;
+
+    // Vérifier si c'est une première installation
+    const installData = await chrome.storage.local.get('firstInstallShown');
+    if (!installData.firstInstallShown) {
+        // C'est la première fois que l'utilisateur ouvre les options
+        welcomeMessage.style.display = 'block';
+        
+        // Défiler vers le haut pour s'assurer que le message est visible
+        window.scrollTo(0, 0);
+        
+        // Marquer comme affiché
+        await chrome.storage.local.set({ firstInstallShown: true });
+        
+        console.log('Hover Zoom: Welcome message displayed for first-time user');
+    }
+
+    // Gestionnaire pour fermer le message de bienvenue
+    if (closeWelcomeButton) {
+        closeWelcomeButton.addEventListener('click', () => {
+            welcomeMessage.style.display = 'none';
+        });
+    }
 
     // Vérifier le statut initial
     await updateStatus();
@@ -135,3 +167,34 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
     });
 });
+// Replace all __MSG_key__ tokens in the DOM with localized strings
+function localizeHtml() {
+    const tokenRegex = /__MSG_(\w+)__/g;
+
+    // Collect text nodes first so replacing them doesn't disturb the walker
+    const textNodes = [];
+    const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+    let node;
+    while ((node = walker.nextNode())) {
+        textNodes.push(node);
+    }
+
+    // Replace text node content (allowing HTML markup in translations)
+    textNodes.forEach(textNode => {
+        const original = textNode.nodeValue;
+        if (tokenRegex.test(original)) {
+            const replaced = original.replace(tokenRegex, (_, key) => chrome.i18n.getMessage(key) || '');
+            const frag = document.createRange().createContextualFragment(replaced);
+            textNode.replaceWith(frag);
+        }
+    });
+
+    // Replace attribute values
+    document.querySelectorAll('*').forEach(el => {
+        Array.from(el.attributes).forEach(attr => {
+            if (attr.value.includes('__MSG_')) {
+                attr.value = attr.value.replace(tokenRegex, (_, key) => chrome.i18n.getMessage(key) || '');
+            }
+        });
+    });
+}

@@ -52,5 +52,95 @@
   },
   "footerInspiredBy": {
     "message": "Вдохновлено"
+  },
+  "linkAdvancedOptions": {
+    "message": "Дополнительные настройки"
+  },
+  "optionsPageTitle": {
+    "message": "Hover Zoom - Настройки"
+  },
+  "optionsHeaderTitle": {
+    "message": "Hover Zoom - Настройки"
+  },
+  "optionsHeaderDescription": {
+    "message": "Управление разрешениями и настройками расширения"
+  },
+  "optionsWelcomeTitle": {
+    "message": "🎉 Добро пожаловать в Hover Zoom!"
+  },
+  "optionsWelcomeThanks": {
+    "message": "Спасибо за установку Hover Zoom!"
+  },
+  "optionsWelcomeDefaultSettings": {
+    "message": "Расширение настроено с параметрами по умолчанию:"
+  },
+  "optionsWelcomeExtensionEnabled": {
+    "message": "✅ Расширение включено"
+  },
+  "optionsWelcomeZoomMode": {
+    "message": "✅ Режим масштабирования: Естественный (рядом с курсором)"
+  },
+  "optionsWelcomeZoomFactor": {
+    "message": "✅ Коэффициент масштабирования: 2x"
+  },
+  "optionsWelcomeFullUsage": {
+    "message": "Для полного использования расширения:"
+  },
+  "optionsWelcomeStep1": {
+    "message": "Предоставьте разрешения ниже, чтобы расширение работало на всех сайтах"
+  },
+  "optionsWelcomeStep2": {
+    "message": "Просто наведите курсор на изображение на любой веб-странице"
+  },
+  "optionsWelcomeStep3": {
+    "message": "Нажмите Escape, чтобы закрыть масштабирование"
+  },
+  "optionsWelcomeCloseButton": {
+    "message": "Понятно! 👍"
+  },
+  "optionsPermissionsTitle": {
+    "message": "Разрешения доступа к веб-сайтам"
+  },
+  "optionsPermissionsWhyTitle": {
+    "message": "Почему это разрешение необходимо?"
+  },
+  "optionsPermissionsWhyDescription": {
+    "message": "Hover Zoom требует доступ к веб-страницам для обнаружения изображений и отображения превью. Без этого разрешения расширение может работать только на текущей активной странице."
+  },
+  "optionsPermissionsGrantButton": {
+    "message": "Предоставить разрешения всем сайтам"
+  },
+  "optionsPermissionsRevokeButton": {
+    "message": "Отозвать разрешения"
+  },
+  "optionsExtensionStateTitle": {
+    "message": "Состояние расширения"
+  },
+  "optionsReinjectButton": {
+    "message": "Повторно активировать на всех открытых вкладках"
+  },
+  "optionsReinjectDescription": {
+    "message": "Используйте эту кнопку, если расширение не работает на уже открытых вкладках."
+  },
+  "optionsInfoTitle": {
+    "message": "Информация"
+  },
+  "optionsInfoVersion": {
+    "message": "Версия:"
+  },
+  "optionsInfoStatus": {
+    "message": "Статус:"
+  },
+  "optionsInfoActivationProblemTitle": {
+    "message": "Проблема с активацией?"
+  },
+  "optionsInfoActivationStep1": {
+    "message": "Предоставьте разрешения выше"
+  },
+  "optionsInfoActivationStep2": {
+    "message": "Перезагрузите страницы, где расширение не работает"
+  },
+  "optionsInfoActivationStep3": {
+    "message": "Используйте кнопку \"Повторно активировать на всех открытых вкладках\""
   }
 }

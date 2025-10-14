@@ -52,5 +52,95 @@
   },
   "footerInspiredBy": {
     "message": "مستوحى من"
+  },
+  "linkAdvancedOptions": {
+    "message": "خيارات متقدمة"
+  },
+  "optionsPageTitle": {
+    "message": "Hover Zoom - خيارات"
+  },
+  "optionsHeaderTitle": {
+    "message": "Hover Zoom - خيارات"
+  },
+  "optionsHeaderDescription": {
+    "message": "إدارة أذونات وإعدادات الامتداد"
+  },
+  "optionsWelcomeTitle": {
+    "message": "🎉 مرحباً بك في Hover Zoom!"
+  },
+  "optionsWelcomeThanks": {
+    "message": "شكراً لك على تثبيت Hover Zoom!"
+  },
+  "optionsWelcomeDefaultSettings": {
+    "message": "تم تكوين الامتداد بالإعدادات الافتراضية:"
+  },
+  "optionsWelcomeExtensionEnabled": {
+    "message": "✅ الامتداد مُفعل"
+  },
+  "optionsWelcomeZoomMode": {
+    "message": "✅ وضع التكبير: طبيعي (بجانب المؤشر)"
+  },
+  "optionsWelcomeZoomFactor": {
+    "message": "✅ معامل التكبير: 2x"
+  },
+  "optionsWelcomeFullUsage": {
+    "message": "لاستخدام الامتداد بالكامل:"
+  },
+  "optionsWelcomeStep1": {
+    "message": "امنح الأذونات أدناه ليعمل الامتداد على جميع المواقع"
+  },
+  "optionsWelcomeStep2": {
+    "message": "ببساطة مرر فوق صورة على أي صفحة ويب"
+  },
+  "optionsWelcomeStep3": {
+    "message": "اضغط على Escape لإغلاق التكبير"
+  },
+  "optionsWelcomeCloseButton": {
+    "message": "فهمت! 👍"
+  },
+  "optionsPermissionsTitle": {
+    "message": "أذونات الوصول إلى المواقع"
+  },
+  "optionsPermissionsWhyTitle": {
+    "message": "لماذا هذا الإذن ضروري؟"
+  },
+  "optionsPermissionsWhyDescription": {
+    "message": "يحتاج Hover Zoom إلى الوصول للصفحات لاكتشاف الصور وعرض المعاينات. بدون هذا الإذن، لا يمكن للامتداد العمل إلا على الصفحة النشطة الحالية."
+  },
+  "optionsPermissionsGrantButton": {
+    "message": "منح الأذونات لجميع المواقع"
+  },
+  "optionsPermissionsRevokeButton": {
+    "message": "إلغاء الأذونات"
+  },
+  "optionsExtensionStateTitle": {
+    "message": "حالة الإضافة"
+  },
+  "optionsReinjectButton": {
+    "message": "إعادة التنشيط في جميع علامات التبويب المفتوحة"
+  },
+  "optionsReinjectDescription": {
+    "message": "استخدم هذا الزر إذا كانت الإضافة لا تعمل في علامات التبويب المفتوحة بالفعل."
+  },
+  "optionsInfoTitle": {
+    "message": "معلومات"
+  },
+  "optionsInfoVersion": {
+    "message": "الإصدار:"
+  },
+  "optionsInfoStatus": {
+    "message": "الحالة:"
+  },
+  "optionsInfoActivationProblemTitle": {
+    "message": "مشكلة في التنشيط؟"
+  },
+  "optionsInfoActivationStep1": {
+    "message": "منح الأذونات أعلاه"
+  },
+  "optionsInfoActivationStep2": {
+    "message": "إعادة تحميل الصفحات التي لا تعمل فيها الإضافة"
+  },
+  "optionsInfoActivationStep3": {
+    "message": "استخدم زر \"إعادة التنشيط في جميع علامات التبويب المفتوحة\""
   }
 }

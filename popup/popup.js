@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const zoomFactorInput = document.getElementById('zoom-factor');
     const githubLink = document.getElementById('github-link');
     const imagusLink = document.getElementById('imagus-link'); // NOUVEAU
+    const optionsLink = document.getElementById('options-link'); // NOUVEAU
 
     // --- LOGIQUE DES OPTIONS (INCHANGÉE) ---
     chrome.storage.local.get(['extensionEnabled', 'zoomMode', 'zoomFactor'], (result) => {
@@ -70,8 +71,15 @@ document.addEventListener('DOMContentLoaded', () => {
         chrome.tabs.create({ url: event.currentTarget.href });
     }
 
+    // Fonction pour ouvrir la page options
+    function handleOptionsLink(event) {
+        event.preventDefault();
+        chrome.runtime.openOptionsPage();
+    }
+
     githubLink.addEventListener('click', handleExternalLink);
     imagusLink.addEventListener('click', handleExternalLink); // NOUVEAU
+    optionsLink.addEventListener('click', handleOptionsLink); // NOUVEAU
 });
 
 // Replace all __MSG_key__ tokens in the DOM with localized strings

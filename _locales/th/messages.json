@@ -52,5 +52,95 @@
   },
   "footerInspiredBy": {
     "message": "ได้แรงบันดาลใจจาก"
+  },
+  "linkAdvancedOptions": {
+    "message": "ตัวเลือกขั้นสูง"
+  },
+  "optionsPageTitle": {
+    "message": "Hover Zoom - ตัวเลือก"
+  },
+  "optionsHeaderTitle": {
+    "message": "Hover Zoom - ตัวเลือก"
+  },
+  "optionsHeaderDescription": {
+    "message": "จัดการสิทธิ์และการตั้งค่าส่วนขยาย"
+  },
+  "optionsWelcomeTitle": {
+    "message": "🎉 ยินดีต้อนรับสู่ Hover Zoom!"
+  },
+  "optionsWelcomeThanks": {
+    "message": "ขอบคุณที่ติดตั้ง Hover Zoom!"
+  },
+  "optionsWelcomeDefaultSettings": {
+    "message": "ส่วนขยายได้รับการกำหนดค่าด้วยการตั้งค่าเริ่มต้น:"
+  },
+  "optionsWelcomeExtensionEnabled": {
+    "message": "✅ ส่วนขยายเปิดใช้งาน"
+  },
+  "optionsWelcomeZoomMode": {
+    "message": "✅ โหมดซูม: ธรรมชาติ (ข้างเคอร์เซอร์)"
+  },
+  "optionsWelcomeZoomFactor": {
+    "message": "✅ ปัจจัยซูม: 2x"
+  },
+  "optionsWelcomeFullUsage": {
+    "message": "เพื่อใช้ส่วนขยายอย่างเต็มรูปแบบ:"
+  },
+  "optionsWelcomeStep1": {
+    "message": "ให้สิทธิ์ด้านล่างเพื่อให้ส่วนขยายทำงานในทุกเว็บไซต์"
+  },
+  "optionsWelcomeStep2": {
+    "message": "เพียงชี้เมาส์ไปที่รูปภาพในหน้าเว็บใดก็ได้"
+  },
+  "optionsWelcomeStep3": {
+    "message": "กด Escape เพื่อปิดการซูม"
+  },
+  "optionsWelcomeCloseButton": {
+    "message": "เข้าใจแล้ว! 👍"
+  },
+  "optionsPermissionsTitle": {
+    "message": "สิทธิ์การเข้าถึงเว็บไซต์"
+  },
+  "optionsPermissionsWhyTitle": {
+    "message": "ทำไมสิทธิ์นี้จึงจำเป็น?"
+  },
+  "optionsPermissionsWhyDescription": {
+    "message": "Hover Zoom ต้องการการเข้าถึงหน้าเว็บเพื่อตรวจจับภาพและแสดงตัวอย่าง หากไม่มีสิทธิ์นี้ ส่วนขยายจะทำงานได้เฉพาะในหน้าที่ใช้งานอยู่ปัจจุบันเท่านั้น"
+  },
+  "optionsPermissionsGrantButton": {
+    "message": "ให้สิทธิ์กับทุกไซต์"
+  },
+  "optionsPermissionsRevokeButton": {
+    "message": "เพิกถอนสิทธิ์"
+  },
+  "optionsExtensionStateTitle": {
+    "message": "สถานะส่วนขยาย"
+  },
+  "optionsReinjectButton": {
+    "message": "เปิดใช้งานอีกครั้งในทุกแท็บที่เปิด"
+  },
+  "optionsReinjectDescription": {
+    "message": "ใช้ปุ่มนี้หากส่วนขยายไม่ทำงานในแท็บที่เปิดอยู่แล้ว"
+  },
+  "optionsInfoTitle": {
+    "message": "ข้อมูล"
+  },
+  "optionsInfoVersion": {
+    "message": "เวอร์ชัน:"
+  },
+  "optionsInfoStatus": {
+    "message": "สถานะ:"
+  },
+  "optionsInfoActivationProblemTitle": {
+    "message": "ปัญหาการเปิดใช้งาน?"
+  },
+  "optionsInfoActivationStep1": {
+    "message": "ให้สิทธิ์ด้านบน"
+  },
+  "optionsInfoActivationStep2": {
+    "message": "โหลดหน้าใหม่ที่ส่วนขยายไม่ทำงาน"
+  },
+  "optionsInfoActivationStep3": {
+    "message": "ใช้ปุ่ม \"เปิดใช้งานอีกครั้งในทุกแท็บที่เปิด\""
   }
 }

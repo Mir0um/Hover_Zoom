@@ -52,5 +52,95 @@
   },
   "footerInspiredBy": {
     "message": "Inspirado por"
+  },
+  "linkAdvancedOptions": {
+    "message": "Opções avançadas"
+  },
+  "optionsPageTitle": {
+    "message": "Hover Zoom - Opções"
+  },
+  "optionsHeaderTitle": {
+    "message": "Hover Zoom - Opções"
+  },
+  "optionsHeaderDescription": {
+    "message": "Gerenciar permissões e configurações da extensão"
+  },
+  "optionsWelcomeTitle": {
+    "message": "🎉 Bem-vindo ao Hover Zoom!"
+  },
+  "optionsWelcomeThanks": {
+    "message": "Obrigado por instalar o Hover Zoom!"
+  },
+  "optionsWelcomeDefaultSettings": {
+    "message": "A extensão foi configurada com as configurações padrão:"
+  },
+  "optionsWelcomeExtensionEnabled": {
+    "message": "✅ Extensão habilitada"
+  },
+  "optionsWelcomeZoomMode": {
+    "message": "✅ Modo de zoom: Natural (ao lado do cursor)"
+  },
+  "optionsWelcomeZoomFactor": {
+    "message": "✅ Fator de zoom: 2x"
+  },
+  "optionsWelcomeFullUsage": {
+    "message": "Para usar completamente a extensão:"
+  },
+  "optionsWelcomeStep1": {
+    "message": "Conceda as permissões abaixo para que a extensão funcione em todos os sites"
+  },
+  "optionsWelcomeStep2": {
+    "message": "Simplesmente passe o mouse sobre uma imagem em qualquer página web"
+  },
+  "optionsWelcomeStep3": {
+    "message": "Pressione Escape para fechar o zoom"
+  },
+  "optionsWelcomeCloseButton": {
+    "message": "Entendi! 👍"
+  },
+  "optionsPermissionsTitle": {
+    "message": "Permissões de acesso a sites"
+  },
+  "optionsPermissionsWhyTitle": {
+    "message": "Por que essa permissão é necessária?"
+  },
+  "optionsPermissionsWhyDescription": {
+    "message": "O Hover Zoom precisa de acesso às páginas web para detectar imagens e exibir visualizações. Sem essa permissão, a extensão só pode funcionar na página ativa atual."
+  },
+  "optionsPermissionsGrantButton": {
+    "message": "Conceder permissões a todos os sites"
+  },
+  "optionsPermissionsRevokeButton": {
+    "message": "Revogar permissões"
+  },
+  "optionsExtensionStateTitle": {
+    "message": "Estado da extensão"
+  },
+  "optionsReinjectButton": {
+    "message": "Reativar em todas as abas abertas"
+  },
+  "optionsReinjectDescription": {
+    "message": "Use este botão se a extensão não funcionar nas abas já abertas."
+  },
+  "optionsInfoTitle": {
+    "message": "Informações"
+  },
+  "optionsInfoVersion": {
+    "message": "Versão:"
+  },
+  "optionsInfoStatus": {
+    "message": "Estado:"
+  },
+  "optionsInfoActivationProblemTitle": {
+    "message": "Problema de ativação?"
+  },
+  "optionsInfoActivationStep1": {
+    "message": "Conceda as permissões acima"
+  },
+  "optionsInfoActivationStep2": {
+    "message": "Recarregue as páginas onde a extensão não funciona"
+  },
+  "optionsInfoActivationStep3": {
+    "message": "Use o botão \"Reativar em todas as abas abertas\""
   }
 }

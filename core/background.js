@@ -71,29 +71,90 @@ async function injectScriptInTab(tabId, tabUrl) {
 
 // Définir les valeurs par défaut lors de l'installation de l'extension
 chrome.runtime.onInstalled.addListener(async (details) => {
-    // Initialiser les paramètres pour toutes les raisons (install, update, etc.)
-    await chrome.storage.local.set({
-        extensionEnabled: true,
-        zoomMode: 'natural', // 'natural' ou 'page'
-        zoomFactor: 2
-    });
-
-    console.log("Hover Zoom: Settings initialized.");
-
-    // Pour les nouvelles installations, demander les permissions
+    console.log(`Hover Zoom: Extension event - ${details.reason}`);
+    
+    // Pour les nouvelles installations
     if (details.reason === 'install') {
         console.log("Hover Zoom: First installation detected");
+        
+        // Initialiser les paramètres avec les valeurs par défaut
+        await chrome.storage.local.set({
+            extensionEnabled: true,
+            zoomMode: 'natural', // 'natural' ou 'page'
+            zoomFactor: 2
+        });
+
+        console.log("Hover Zoom: Default settings initialized:", {
+            extensionEnabled: true,
+            zoomMode: 'natural',
+            zoomFactor: 2
+        });
+        
+        // Ouvrir la page d'options pour guider l'utilisateur
+        try {
+            await chrome.runtime.openOptionsPage();
+            console.log("Hover Zoom: Options page opened for first-time setup");
+        } catch (error) {
+            console.error("Hover Zoom: Error opening options page:", error);
+            // Alternative : ouvrir dans un nouvel onglet
+            chrome.tabs.create({ url: chrome.runtime.getURL('options/options.html') });
+        }
         
         // Attendre un peu avant de demander les permissions pour éviter les popups simultanés
         setTimeout(async () => {
             const granted = await requestHostPermissions();
             if (granted) {
+                console.log("Hover Zoom: Permissions granted, injecting scripts");
                 // Injecter le script dans tous les onglets existants
                 await injectInAllTabs();
+            } else {
+                console.log("Hover Zoom: Permissions not granted, extension will use activeTab only");
             }
-        }, 1000);
+        }, 2000); // 2 secondes pour laisser l'utilisateur voir la page d'options
+        
+    } else if (details.reason === 'update') {
+        console.log("Hover Zoom: Extension updated from", details.previousVersion, "to", chrome.runtime.getManifest().version);
+        
+        // Vérifier que les paramètres existent, sinon les initialiser
+        const data = await chrome.storage.local.get(['extensionEnabled', 'zoomMode', 'zoomFactor']);
+        
+        const settingsToUpdate = {};
+        if (data.extensionEnabled === undefined) {
+            settingsToUpdate.extensionEnabled = true;
+        }
+        if (!data.zoomMode) {
+            settingsToUpdate.zoomMode = 'natural';
+        }
+        if (!data.zoomFactor) {
+            settingsToUpdate.zoomFactor = 2;
+        }
+        
+        // Mettre à jour seulement les paramètres manquants
+        if (Object.keys(settingsToUpdate).length > 0) {
+            await chrome.storage.local.set(settingsToUpdate);
+            console.log("Hover Zoom: Missing settings initialized:", settingsToUpdate);
+        }
+        
+        // Injecter dans les onglets existants
+        await injectInAllTabs();
+        
     } else {
-        // Pour les mises à jour, juste injecter dans les onglets existants
+        // chrome_update, shared_module_update, etc.
+        console.log("Hover Zoom: Browser event, ensuring settings are present");
+        
+        // S'assurer que les paramètres existent
+        const data = await chrome.storage.local.get(['extensionEnabled', 'zoomMode', 'zoomFactor']);
+        
+        if (data.extensionEnabled === undefined || !data.zoomMode || !data.zoomFactor) {
+            await chrome.storage.local.set({
+                extensionEnabled: data.extensionEnabled !== false,
+                zoomMode: data.zoomMode || 'natural',
+                zoomFactor: data.zoomFactor || 2
+            });
+            console.log("Hover Zoom: Settings validated and initialized");
+        }
+        
+        // Injecter dans les onglets existants
         await injectInAllTabs();
     }
 });

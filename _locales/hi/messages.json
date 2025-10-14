@@ -52,5 +52,95 @@
   },
   "footerInspiredBy": {
     "message": "से प्रेरित"
+  },
+  "linkAdvancedOptions": {
+    "message": "उन्नत विकल्प"
+  },
+  "optionsPageTitle": {
+    "message": "Hover Zoom - विकल्प"
+  },
+  "optionsHeaderTitle": {
+    "message": "Hover Zoom - विकल्प"
+  },
+  "optionsHeaderDescription": {
+    "message": "एक्सटेंशन की अनुमतियां और सेटिंग्स प्रबंधित करें"
+  },
+  "optionsWelcomeTitle": {
+    "message": "🎉 Hover Zoom में आपका स्वागत है!"
+  },
+  "optionsWelcomeThanks": {
+    "message": "Hover Zoom इंस्टॉल करने के लिए धन्यवाद!"
+  },
+  "optionsWelcomeDefaultSettings": {
+    "message": "एक्सटेंशन को डिफ़ॉल्ट सेटिंग्स के साथ कॉन्फ़िगर किया गया है:"
+  },
+  "optionsWelcomeExtensionEnabled": {
+    "message": "✅ एक्सटेंशन सक्षम"
+  },
+  "optionsWelcomeZoomMode": {
+    "message": "✅ ज़ूम मोड: प्राकृतिक (कर्सर के बगल में)"
+  },
+  "optionsWelcomeZoomFactor": {
+    "message": "✅ ज़ूम फैक्टर: 2x"
+  },
+  "optionsWelcomeFullUsage": {
+    "message": "एक्सटेंशन का पूरा उपयोग करने के लिए:"
+  },
+  "optionsWelcomeStep1": {
+    "message": "सभी साइटों पर एक्सटेंशन काम करने के लिए नीचे दी गई अनुमतियां दें"
+  },
+  "optionsWelcomeStep2": {
+    "message": "किसी भी वेब पेज पर छवि पर माउस ले जाएं"
+  },
+  "optionsWelcomeStep3": {
+    "message": "ज़ूम बंद करने के लिए Escape दबाएं"
+  },
+  "optionsWelcomeCloseButton": {
+    "message": "समझ गया! 👍"
+  },
+  "optionsPermissionsTitle": {
+    "message": "वेबसाइट एक्सेस अनुमतियां"
+  },
+  "optionsPermissionsWhyTitle": {
+    "message": "यह अनुमति क्यों आवश्यक है?"
+  },
+  "optionsPermissionsWhyDescription": {
+    "message": "Hover Zoom को छवियों को पहचानने और पूर्वावलोकन दिखाने के लिए वेब पेजों तक पहुंच की आवश्यकता है। इस अनुमति के बिना, एक्सटेंशन केवल वर्तमान सक्रिय पृष्ठ पर काम कर सकता है।"
+  },
+  "optionsPermissionsGrantButton": {
+    "message": "सभी साइटों को अनुमति दें"
+  },
+  "optionsPermissionsRevokeButton": {
+    "message": "अनुमतियाँ रद्द करें"
+  },
+  "optionsExtensionStateTitle": {
+    "message": "एक्सटेंशन स्थिति"
+  },
+  "optionsReinjectButton": {
+    "message": "सभी खुले टैब पर पुनः सक्रिय करें"
+  },
+  "optionsReinjectDescription": {
+    "message": "यदि एक्सटेंशन पहले से खुले टैब पर काम नहीं करता है तो इस बटन का उपयोग करें।"
+  },
+  "optionsInfoTitle": {
+    "message": "जानकारी"
+  },
+  "optionsInfoVersion": {
+    "message": "संस्करण:"
+  },
+  "optionsInfoStatus": {
+    "message": "स्थिति:"
+  },
+  "optionsInfoActivationProblemTitle": {
+    "message": "सक्रियण समस्या?"
+  },
+  "optionsInfoActivationStep1": {
+    "message": "ऊपर अनुमतियाँ दें"
+  },
+  "optionsInfoActivationStep2": {
+    "message": "उन पृष्ठों को पुनः लोड करें जहाँ एक्सटेंशन काम नहीं करता"
+  },
+  "optionsInfoActivationStep3": {
+    "message": "\"सभी खुले टैब पर पुनः सक्रिय करें\" बटन का उपयोग करें"
   }
 }

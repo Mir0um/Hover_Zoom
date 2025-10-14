@@ -52,5 +52,95 @@
   },
   "footerInspiredBy": {
     "message": "Inspirado por"
+  },
+  "linkAdvancedOptions": {
+    "message": "Opciones avanzadas"
+  },
+  "optionsPageTitle": {
+    "message": "Hover Zoom - Opciones"
+  },
+  "optionsHeaderTitle": {
+    "message": "Hover Zoom - Opciones"
+  },
+  "optionsHeaderDescription": {
+    "message": "Gestionar permisos y configuración de la extensión"
+  },
+  "optionsWelcomeTitle": {
+    "message": "🎉 ¡Bienvenido a Hover Zoom!"
+  },
+  "optionsWelcomeThanks": {
+    "message": "¡Gracias por instalar Hover Zoom!"
+  },
+  "optionsWelcomeDefaultSettings": {
+    "message": "La extensión ha sido configurada con la configuración predeterminada:"
+  },
+  "optionsWelcomeExtensionEnabled": {
+    "message": "✅ Extensión habilitada"
+  },
+  "optionsWelcomeZoomMode": {
+    "message": "✅ Modo de zoom: Natural (al lado del cursor)"
+  },
+  "optionsWelcomeZoomFactor": {
+    "message": "✅ Factor de zoom: 2x"
+  },
+  "optionsWelcomeFullUsage": {
+    "message": "Para usar completamente la extensión:"
+  },
+  "optionsWelcomeStep1": {
+    "message": "Concede los permisos de abajo para que la extensión funcione en todos los sitios"
+  },
+  "optionsWelcomeStep2": {
+    "message": "Simplemente pasa el cursor sobre una imagen en cualquier página web"
+  },
+  "optionsWelcomeStep3": {
+    "message": "Presiona Escape para cerrar el zoom"
+  },
+  "optionsWelcomeCloseButton": {
+    "message": "¡Entendido! 👍"
+  },
+  "optionsPermissionsTitle": {
+    "message": "Permisos de acceso a sitios web"
+  },
+  "optionsPermissionsWhyTitle": {
+    "message": "¿Por qué es necesario este permiso?"
+  },
+  "optionsPermissionsWhyDescription": {
+    "message": "Hover Zoom necesita acceso a las páginas web para detectar imágenes y mostrar vistas previas. Sin este permiso, la extensión solo puede funcionar en la página activa actual."
+  },
+  "optionsPermissionsGrantButton": {
+    "message": "Conceder permisos a todos los sitios"
+  },
+  "optionsPermissionsRevokeButton": {
+    "message": "Revocar permisos"
+  },
+  "optionsExtensionStateTitle": {
+    "message": "Estado de la extensión"
+  },
+  "optionsReinjectButton": {
+    "message": "Reactivar en todas las pestañas abiertas"
+  },
+  "optionsReinjectDescription": {
+    "message": "Usa este botón si la extensión no funciona en las pestañas ya abiertas."
+  },
+  "optionsInfoTitle": {
+    "message": "Información"
+  },
+  "optionsInfoVersion": {
+    "message": "Versión:"
+  },
+  "optionsInfoStatus": {
+    "message": "Estado:"
+  },
+  "optionsInfoActivationProblemTitle": {
+    "message": "¿Problema de activación?"
+  },
+  "optionsInfoActivationStep1": {
+    "message": "Concede los permisos de arriba"
+  },
+  "optionsInfoActivationStep2": {
+    "message": "Recarga las páginas donde la extensión no funciona"
+  },
+  "optionsInfoActivationStep3": {
+    "message": "Usa el botón \"Reactivar en todas las pestañas abiertas\""
   }
 }

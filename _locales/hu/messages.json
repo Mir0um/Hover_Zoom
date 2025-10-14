@@ -52,5 +52,95 @@
   },
   "footerInspiredBy": {
     "message": "Inspirálta"
+  },
+  "linkAdvancedOptions": {
+    "message": "Speciális beállítások"
+  },
+  "optionsPageTitle": {
+    "message": "Hover Zoom - Beállítások"
+  },
+  "optionsHeaderTitle": {
+    "message": "Hover Zoom - Beállítások"
+  },
+  "optionsHeaderDescription": {
+    "message": "Bővítmény engedélyeinek és beállításainak kezelése"
+  },
+  "optionsWelcomeTitle": {
+    "message": "🎉 Üdvözöljük a Hover Zoom-ban!"
+  },
+  "optionsWelcomeThanks": {
+    "message": "Köszönjük, hogy telepítette a Hover Zoom-ot!"
+  },
+  "optionsWelcomeDefaultSettings": {
+    "message": "A bővítmény alapértelmezett beállításokkal lett konfigurálva:"
+  },
+  "optionsWelcomeExtensionEnabled": {
+    "message": "✅ Bővítmény engedélyezve"
+  },
+  "optionsWelcomeZoomMode": {
+    "message": "✅ Nagyítási mód: Természetes (a kurzor mellett)"
+  },
+  "optionsWelcomeZoomFactor": {
+    "message": "✅ Nagyítási tényező: 2x"
+  },
+  "optionsWelcomeFullUsage": {
+    "message": "A bővítmény teljes használatához:"
+  },
+  "optionsWelcomeStep1": {
+    "message": "Adja meg az alábbi engedélyeket, hogy a bővítmény minden oldalon működjön"
+  },
+  "optionsWelcomeStep2": {
+    "message": "Egyszerűen vigye az egeret egy kép fölé bármely weboldalon"
+  },
+  "optionsWelcomeStep3": {
+    "message": "Nyomja meg az Escape-et a nagyítás bezárásához"
+  },
+  "optionsWelcomeCloseButton": {
+    "message": "Értem! 👍"
+  },
+  "optionsPermissionsTitle": {
+    "message": "Weboldal-hozzáférési engedélyek"
+  },
+  "optionsPermissionsWhyTitle": {
+    "message": "Miért szükséges ez az engedély?"
+  },
+  "optionsPermissionsWhyDescription": {
+    "message": "A Hover Zoom-nak hozzá kell férnie a weboldalakhoz a képek észleléséhez és az előnézetek megjelenítéséhez. E engedély nélkül a bővítmény csak a jelenleg aktív oldalon működhet."
+  },
+  "optionsPermissionsGrantButton": {
+    "message": "Engedélyek megadása az összes webhelynek"
+  },
+  "optionsPermissionsRevokeButton": {
+    "message": "Engedélyek visszavonása"
+  },
+  "optionsExtensionStateTitle": {
+    "message": "Bővítmény állapota"
+  },
+  "optionsReinjectButton": {
+    "message": "Újraaktiválás az összes megnyitott lapon"
+  },
+  "optionsReinjectDescription": {
+    "message": "Használja ezt a gombot, ha a bővítmény nem működik a már megnyitott lapokon."
+  },
+  "optionsInfoTitle": {
+    "message": "Információ"
+  },
+  "optionsInfoVersion": {
+    "message": "Verzió:"
+  },
+  "optionsInfoStatus": {
+    "message": "Állapot:"
+  },
+  "optionsInfoActivationProblemTitle": {
+    "message": "Aktiválási probléma?"
+  },
+  "optionsInfoActivationStep1": {
+    "message": "Adja meg a fenti engedélyeket"
+  },
+  "optionsInfoActivationStep2": {
+    "message": "Töltse újra azokat az oldalakat, ahol a bővítmény nem működik"
+  },
+  "optionsInfoActivationStep3": {
+    "message": "Használja az \"Újraaktiválás az összes megnyitott lapon\" gombot"
   }
 }

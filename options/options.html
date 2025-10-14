@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Hover Zoom - Options</title>
+    <title>__MSG_optionsPageTitle__</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -82,40 +82,61 @@
 </head>
 <body>
     <div class="header">
-        <h1>Hover Zoom - Options</h1>
-        <p>Gérez les permissions et paramètres de l'extension</p>
+        <h1>__MSG_optionsHeaderTitle__</h1>
+        <p>__MSG_optionsHeaderDescription__</p>
     </div>
 
-    <div class="section">
-        <h3>Permissions d'accès aux sites web</h3>
-        <div id="permissions-status" class="status"></div>
-        <div class="info">
-            <p><strong>Pourquoi cette permission est-elle nécessaire ?</strong></p>
-            <p>Hover Zoom a besoin d'accéder aux pages web pour détecter les images et afficher les aperçus. Sans cette permission, l'extension ne peut fonctionner que sur la page active actuelle.</p>
-        </div>
-        <button id="grant-permissions">Accorder les permissions à tous les sites</button>
-        <button id="revoke-permissions" style="margin-left: 10px;">Révoquer les permissions</button>
-    </div>
-
-    <div class="section">
-        <h3>État de l'extension</h3>
-        <div id="extension-status" class="status"></div>
-        <button id="reinject-scripts">Réactiver sur tous les onglets ouverts</button>
-        <p style="margin-top: 10px; font-size: 14px; color: #666;">
-            Utilisez ce bouton si l'extension ne fonctionne pas sur les onglets déjà ouverts.
+    <!-- Message de bienvenue pour les nouvelles installations -->
+    <div id="welcome-message" class="section" style="display: none; background: #e7f3ff; border: 2px solid #007bff;">
+        <h3>__MSG_optionsWelcomeTitle__</h3>
+        <p><strong>__MSG_optionsWelcomeThanks__</strong></p>
+        <p>__MSG_optionsWelcomeDefaultSettings__</p>
+        <ul>
+            <li>__MSG_optionsWelcomeExtensionEnabled__</li>
+            <li>__MSG_optionsWelcomeZoomMode__</li>
+            <li>__MSG_optionsWelcomeZoomFactor__</li>
+        </ul>
+        <p><strong>__MSG_optionsWelcomeFullUsage__</strong></p>
+        <ol>
+            <li>__MSG_optionsWelcomeStep1__</li>
+            <li>__MSG_optionsWelcomeStep2__</li>
+            <li>__MSG_optionsWelcomeStep3__</li>
+        </ol>
+        <p style="margin-top: 15px;">
+            <button id="close-welcome" style="background: #28a745;">__MSG_optionsWelcomeCloseButton__</button>
         </p>
     </div>
 
     <div class="section">
-        <h3>Informations</h3>
-        <p><strong>Version :</strong> <span id="version"></span></p>
-        <p><strong>Statut :</strong> <span id="status"></span></p>
+        <h3>__MSG_optionsPermissionsTitle__</h3>
+        <div id="permissions-status" class="status"></div>
         <div class="info">
-            <p><strong>Problème d'activation ?</strong></p>
+            <p><strong>__MSG_optionsPermissionsWhyTitle__</strong></p>
+            <p>__MSG_optionsPermissionsWhyDescription__</p>
+        </div>
+        <button id="grant-permissions">__MSG_optionsPermissionsGrantButton__</button>
+        <button id="revoke-permissions" style="margin-left: 10px;">__MSG_optionsPermissionsRevokeButton__</button>
+    </div>
+
+    <div class="section">
+        <h3>__MSG_optionsExtensionStateTitle__</h3>
+        <div id="extension-status" class="status"></div>
+        <button id="reinject-scripts">__MSG_optionsReinjectButton__</button>
+        <p style="margin-top: 10px; font-size: 14px; color: #666;">
+            __MSG_optionsReinjectDescription__
+        </p>
+    </div>
+
+    <div class="section">
+        <h3>__MSG_optionsInfoTitle__</h3>
+        <p><strong>__MSG_optionsInfoVersion__</strong> <span id="version"></span></p>
+        <p><strong>__MSG_optionsInfoStatus__</strong> <span id="status"></span></p>
+        <div class="info">
+            <p><strong>__MSG_optionsInfoActivationProblemTitle__</strong></p>
             <ul>
-                <li>Accordez les permissions ci-dessus</li>
-                <li>Rechargez les pages où l'extension ne fonctionne pas</li>
-                <li>Utilisez le bouton "Réactiver sur tous les onglets ouverts"</li>
+                <li>__MSG_optionsInfoActivationStep1__</li>
+                <li>__MSG_optionsInfoActivationStep2__</li>
+                <li>__MSG_optionsInfoActivationStep3__</li>
             </ul>
         </div>
     </div>

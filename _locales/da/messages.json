@@ -52,5 +52,95 @@
   },
   "footerInspiredBy": {
     "message": "Inspireret af"
+  },
+  "linkAdvancedOptions": {
+    "message": "Avancerede indstillinger"
+  },
+  "optionsPageTitle": {
+    "message": "Hover Zoom - Indstillinger"
+  },
+  "optionsHeaderTitle": {
+    "message": "Hover Zoom - Indstillinger"
+  },
+  "optionsHeaderDescription": {
+    "message": "Administrer udvidelsens tilladelser og indstillinger"
+  },
+  "optionsWelcomeTitle": {
+    "message": "🎉 Velkommen til Hover Zoom!"
+  },
+  "optionsWelcomeThanks": {
+    "message": "Tak for at installere Hover Zoom!"
+  },
+  "optionsWelcomeDefaultSettings": {
+    "message": "Udvidelsen er blevet konfigureret med standardindstillinger:"
+  },
+  "optionsWelcomeExtensionEnabled": {
+    "message": "✅ Udvidelse aktiveret"
+  },
+  "optionsWelcomeZoomMode": {
+    "message": "✅ Zoom-tilstand: Naturlig (ved siden af markøren)"
+  },
+  "optionsWelcomeZoomFactor": {
+    "message": "✅ Zoom-faktor: 2x"
+  },
+  "optionsWelcomeFullUsage": {
+    "message": "For at bruge udvidelsen fuldt ud:"
+  },
+  "optionsWelcomeStep1": {
+    "message": "Giv tilladelserne nedenfor, så udvidelsen virker på alle hjemmesider"
+  },
+  "optionsWelcomeStep2": {
+    "message": "Peg blot på et billede på enhver webside"
+  },
+  "optionsWelcomeStep3": {
+    "message": "Tryk på Escape for at lukke zoom"
+  },
+  "optionsWelcomeCloseButton": {
+    "message": "Forstået! 👍"
+  },
+  "optionsPermissionsTitle": {
+    "message": "Hjemmeside-adgangstilladelser"
+  },
+  "optionsPermissionsWhyTitle": {
+    "message": "Hvorfor er denne tilladelse nødvendig?"
+  },
+  "optionsPermissionsWhyDescription": {
+    "message": "Hover Zoom skal have adgang til websider for at opdage billeder og vise forhåndsvisninger. Uden denne tilladelse kan udvidelsen kun fungere på den nuværende aktive side."
+  },
+  "optionsPermissionsGrantButton": {
+    "message": "Giv tilladelser til alle websteder"
+  },
+  "optionsPermissionsRevokeButton": {
+    "message": "Tilbagekald tilladelser"
+  },
+  "optionsExtensionStateTitle": {
+    "message": "Udvidelsens status"
+  },
+  "optionsReinjectButton": {
+    "message": "Genaktiver på alle åbne faner"
+  },
+  "optionsReinjectDescription": {
+    "message": "Brug denne knap, hvis udvidelsen ikke virker på allerede åbne faner."
+  },
+  "optionsInfoTitle": {
+    "message": "Information"
+  },
+  "optionsInfoVersion": {
+    "message": "Version:"
+  },
+  "optionsInfoStatus": {
+    "message": "Status:"
+  },
+  "optionsInfoActivationProblemTitle": {
+    "message": "Aktiveringsproblem?"
+  },
+  "optionsInfoActivationStep1": {
+    "message": "Giv tilladelser ovenfor"
+  },
+  "optionsInfoActivationStep2": {
+    "message": "Genindlæs sider, hvor udvidelsen ikke virker"
+  },
+  "optionsInfoActivationStep3": {
+    "message": "Brug knappen \"Genaktiver på alle åbne faner\""
   }
 }

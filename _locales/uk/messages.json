@@ -52,5 +52,95 @@
   },
   "footerInspiredBy": {
     "message": "Натхненно"
+  },
+  "linkAdvancedOptions": {
+    "message": "Додаткові налаштування"
+  },
+  "optionsPageTitle": {
+    "message": "Hover Zoom - Налаштування"
+  },
+  "optionsHeaderTitle": {
+    "message": "Hover Zoom - Налаштування"
+  },
+  "optionsHeaderDescription": {
+    "message": "Керування дозволами та налаштуваннями розширення"
+  },
+  "optionsWelcomeTitle": {
+    "message": "🎉 Ласкаво просимо до Hover Zoom!"
+  },
+  "optionsWelcomeThanks": {
+    "message": "Дякуємо за встановлення Hover Zoom!"
+  },
+  "optionsWelcomeDefaultSettings": {
+    "message": "Розширення налаштовано з параметрами за замовчуванням:"
+  },
+  "optionsWelcomeExtensionEnabled": {
+    "message": "✅ Розширення увімкнено"
+  },
+  "optionsWelcomeZoomMode": {
+    "message": "✅ Режим масштабування: Природний (поруч з курсором)"
+  },
+  "optionsWelcomeZoomFactor": {
+    "message": "✅ Коефіцієнт масштабування: 2x"
+  },
+  "optionsWelcomeFullUsage": {
+    "message": "Для повного використання розширення:"
+  },
+  "optionsWelcomeStep1": {
+    "message": "Надайте дозволи нижче, щоб розширення працювало на всіх сайтах"
+  },
+  "optionsWelcomeStep2": {
+    "message": "Просто наведіть курсор на зображення на будь-якій веб-сторінці"
+  },
+  "optionsWelcomeStep3": {
+    "message": "Натисніть Escape, щоб закрити масштабування"
+  },
+  "optionsWelcomeCloseButton": {
+    "message": "Зрозуміло! 👍"
+  },
+  "optionsPermissionsTitle": {
+    "message": "Дозволи доступу до веб-сайтів"
+  },
+  "optionsPermissionsWhyTitle": {
+    "message": "Чому цей дозвіл необхідний?"
+  },
+  "optionsPermissionsWhyDescription": {
+    "message": "Hover Zoom потребує доступ до веб-сторінок для виявлення зображень та відображення попереднього перегляду. Без цього дозволу розширення може працювати лише на поточній активній сторінці."
+  },
+  "optionsPermissionsGrantButton": {
+    "message": "Надати дозволи всім сайтам"
+  },
+  "optionsPermissionsRevokeButton": {
+    "message": "Відкликати дозволи"
+  },
+  "optionsExtensionStateTitle": {
+    "message": "Стан розширення"
+  },
+  "optionsReinjectButton": {
+    "message": "Повторно активувати на всіх відкритих вкладках"
+  },
+  "optionsReinjectDescription": {
+    "message": "Використовуйте цю кнопку, якщо розширення не працює на вже відкритих вкладках."
+  },
+  "optionsInfoTitle": {
+    "message": "Інформація"
+  },
+  "optionsInfoVersion": {
+    "message": "Версія:"
+  },
+  "optionsInfoStatus": {
+    "message": "Статус:"
+  },
+  "optionsInfoActivationProblemTitle": {
+    "message": "Проблема з активацією?"
+  },
+  "optionsInfoActivationStep1": {
+    "message": "Надайте дозволи вище"
+  },
+  "optionsInfoActivationStep2": {
+    "message": "Перезавантажте сторінки, де розширення не працює"
+  },
+  "optionsInfoActivationStep3": {
+    "message": "Використовуйте кнопку \"Повторно активувати на всіх відкритих вкладках\""
   }
 }

@@ -52,5 +52,95 @@
   },
   "footerInspiredBy": {
     "message": "インスピレーション元"
+  },
+  "linkAdvancedOptions": {
+    "message": "詳細オプション"
+  },
+  "optionsPageTitle": {
+    "message": "Hover Zoom - オプション"
+  },
+  "optionsHeaderTitle": {
+    "message": "Hover Zoom - オプション"
+  },
+  "optionsHeaderDescription": {
+    "message": "拡張機能の権限と設定を管理"
+  },
+  "optionsWelcomeTitle": {
+    "message": "🎉 Hover Zoomへようこそ！"
+  },
+  "optionsWelcomeThanks": {
+    "message": "Hover Zoomをインストールしていただき、ありがとうございます！"
+  },
+  "optionsWelcomeDefaultSettings": {
+    "message": "拡張機能はデフォルト設定で構成されています："
+  },
+  "optionsWelcomeExtensionEnabled": {
+    "message": "✅ 拡張機能が有効"
+  },
+  "optionsWelcomeZoomMode": {
+    "message": "✅ ズームモード: ナチュラル（カーソルの横）"
+  },
+  "optionsWelcomeZoomFactor": {
+    "message": "✅ ズーム倍率: 2x"
+  },
+  "optionsWelcomeFullUsage": {
+    "message": "拡張機能をフルに使用するには："
+  },
+  "optionsWelcomeStep1": {
+    "message": "すべてのサイトで拡張機能が動作するよう、以下の権限を付与してください"
+  },
+  "optionsWelcomeStep2": {
+    "message": "どのウェブページでも画像の上にマウスを置くだけです"
+  },
+  "optionsWelcomeStep3": {
+    "message": "Escapeキーを押してズームを閉じます"
+  },
+  "optionsWelcomeCloseButton": {
+    "message": "わかりました！ 👍"
+  },
+  "optionsPermissionsTitle": {
+    "message": "ウェブサイトアクセス権限"
+  },
+  "optionsPermissionsWhyTitle": {
+    "message": "なぜこの権限が必要なのですか？"
+  },
+  "optionsPermissionsWhyDescription": {
+    "message": "Hover Zoomは画像を検出してプレビューを表示するためにウェブページへのアクセスが必要です。この権限なしでは、拡張機能は現在のアクティブなページでのみ動作できます。"
+  },
+  "optionsPermissionsGrantButton": {
+    "message": "すべてのサイトに権限を付与"
+  },
+  "optionsPermissionsRevokeButton": {
+    "message": "権限を取り消す"
+  },
+  "optionsExtensionStateTitle": {
+    "message": "拡張機能の状態"
+  },
+  "optionsReinjectButton": {
+    "message": "開いているすべてのタブで再アクティブ化"
+  },
+  "optionsReinjectDescription": {
+    "message": "すでに開いているタブで拡張機能が機能しない場合は、このボタンを使用してください。"
+  },
+  "optionsInfoTitle": {
+    "message": "情報"
+  },
+  "optionsInfoVersion": {
+    "message": "バージョン:"
+  },
+  "optionsInfoStatus": {
+    "message": "ステータス:"
+  },
+  "optionsInfoActivationProblemTitle": {
+    "message": "アクティベーションの問題？"
+  },
+  "optionsInfoActivationStep1": {
+    "message": "上記の権限を付与してください"
+  },
+  "optionsInfoActivationStep2": {
+    "message": "拡張機能が機能しないページをリロードしてください"
+  },
+  "optionsInfoActivationStep3": {
+    "message": "「開いているすべてのタブで再アクティブ化」ボタンを使用してください"
   }
 }

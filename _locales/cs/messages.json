@@ -52,5 +52,95 @@
   },
   "footerInspiredBy": {
     "message": "Inspirováno"
+  },
+  "linkAdvancedOptions": {
+    "message": "Pokročilé možnosti"
+  },
+  "optionsPageTitle": {
+    "message": "Hover Zoom - Možnosti"
+  },
+  "optionsHeaderTitle": {
+    "message": "Hover Zoom - Možnosti"
+  },
+  "optionsHeaderDescription": {
+    "message": "Spravovat oprávnění a nastavení rozšíření"
+  },
+  "optionsWelcomeTitle": {
+    "message": "🎉 Vítejte v Hover Zoom!"
+  },
+  "optionsWelcomeThanks": {
+    "message": "Děkujeme za instalaci Hover Zoom!"
+  },
+  "optionsWelcomeDefaultSettings": {
+    "message": "Rozšíření bylo nakonfigurováno s výchozími nastaveními:"
+  },
+  "optionsWelcomeExtensionEnabled": {
+    "message": "✅ Rozšíření povoleno"
+  },
+  "optionsWelcomeZoomMode": {
+    "message": "✅ Režim přiblížení: Přirozený (vedle kurzoru)"
+  },
+  "optionsWelcomeZoomFactor": {
+    "message": "✅ Faktor přiblížení: 2x"
+  },
+  "optionsWelcomeFullUsage": {
+    "message": "Pro plné využití rozšíření:"
+  },
+  "optionsWelcomeStep1": {
+    "message": "Udělte níže uvedená oprávnění, aby rozšíření fungovalo na všech stránkách"
+  },
+  "optionsWelcomeStep2": {
+    "message": "Jednoduše najeďte myší na obrázek na jakékoli webové stránce"
+  },
+  "optionsWelcomeStep3": {
+    "message": "Stiskněte Escape pro zavření přiblížení"
+  },
+  "optionsWelcomeCloseButton": {
+    "message": "Rozumím! 👍"
+  },
+  "optionsPermissionsTitle": {
+    "message": "Oprávnění přístupu k webovým stránkám"
+  },
+  "optionsPermissionsWhyTitle": {
+    "message": "Proč je toto oprávnění potřebné?"
+  },
+  "optionsPermissionsWhyDescription": {
+    "message": "Hover Zoom potřebuje přístup k webovým stránkám pro detekci obrázků a zobrazení náhledů. Bez tohoto oprávnění může rozšíření fungovat pouze na aktuální aktivní stránce."
+  },
+  "optionsPermissionsGrantButton": {
+    "message": "Udělit oprávnění všem stránkám"
+  },
+  "optionsPermissionsRevokeButton": {
+    "message": "Odvolat oprávnění"
+  },
+  "optionsExtensionStateTitle": {
+    "message": "Stav rozšíření"
+  },
+  "optionsReinjectButton": {
+    "message": "Znovu aktivovat na všech otevřených kartách"
+  },
+  "optionsReinjectDescription": {
+    "message": "Použijte toto tlačítko, pokud rozšíření nefunguje na již otevřených kartách."
+  },
+  "optionsInfoTitle": {
+    "message": "Informace"
+  },
+  "optionsInfoVersion": {
+    "message": "Verze:"
+  },
+  "optionsInfoStatus": {
+    "message": "Stav:"
+  },
+  "optionsInfoActivationProblemTitle": {
+    "message": "Problém s aktivací?"
+  },
+  "optionsInfoActivationStep1": {
+    "message": "Udělte oprávnění výše"
+  },
+  "optionsInfoActivationStep2": {
+    "message": "Znovu načtěte stránky, kde rozšíření nefunguje"
+  },
+  "optionsInfoActivationStep3": {
+    "message": "Použijte tlačítko \"Znovu aktivovat na všech otevřených kartách\""
   }
 }

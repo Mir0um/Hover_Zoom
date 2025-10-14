@@ -52,5 +52,95 @@
   },
   "footerInspiredBy": {
     "message": "দ্বারা অনুপ্রাণিত"
+  },
+  "linkAdvancedOptions": {
+    "message": "উন্নত বিকল্প"
+  },
+  "optionsPageTitle": {
+    "message": "Hover Zoom - অপশন"
+  },
+  "optionsHeaderTitle": {
+    "message": "Hover Zoom - অপশন"
+  },
+  "optionsHeaderDescription": {
+    "message": "এক্সটেনশনের অনুমতি এবং সেটিংস পরিচালনা করুন"
+  },
+  "optionsWelcomeTitle": {
+    "message": "🎉 Hover Zoom এ স্বাগতম!"
+  },
+  "optionsWelcomeThanks": {
+    "message": "Hover Zoom ইনস্টল করার জন্য ধন্যবাদ!"
+  },
+  "optionsWelcomeDefaultSettings": {
+    "message": "এক্সটেনশনটি ডিফল্ট সেটিংস দিয়ে কনফিগার করা হয়েছে:"
+  },
+  "optionsWelcomeExtensionEnabled": {
+    "message": "✅ এক্সটেনশন সক্রিয়"
+  },
+  "optionsWelcomeZoomMode": {
+    "message": "✅ জুম মোড: প্রাকৃতিক (কার্সরের পাশে)"
+  },
+  "optionsWelcomeZoomFactor": {
+    "message": "✅ জুম ফ্যাক্টর: 2x"
+  },
+  "optionsWelcomeFullUsage": {
+    "message": "এক্সটেনশনটি সম্পূর্ণরূপে ব্যবহার করতে:"
+  },
+  "optionsWelcomeStep1": {
+    "message": "সমস্ত সাইটে এক্সটেনশন কাজ করার জন্য নিচের অনুমতিগুলি দিন"
+  },
+  "optionsWelcomeStep2": {
+    "message": "যেকোনো ওয়েব পৃষ্ঠায় একটি ছবির উপর মাউস নিয়ে যান"
+  },
+  "optionsWelcomeStep3": {
+    "message": "জুম বন্ধ করতে Escape চাপুন"
+  },
+  "optionsWelcomeCloseButton": {
+    "message": "বুঝেছি! 👍"
+  },
+  "optionsPermissionsTitle": {
+    "message": "ওয়েবসাইট অ্যাক্সেস অনুমতি"
+  },
+  "optionsPermissionsWhyTitle": {
+    "message": "কেন এই অনুমতি প্রয়োজন?"
+  },
+  "optionsPermissionsWhyDescription": {
+    "message": "Hover Zoom ছবি শনাক্ত করতে এবং প্রিভিউ প্রদর্শন করতে ওয়েব পৃষ্ঠাগুলিতে অ্যাক্সেস প্রয়োজন। এই অনুমতি ছাড়া, এক্সটেনশনটি কেবল বর্তমান সক্রিয় পৃষ্ঠায় কাজ করতে পারে।"
+  },
+  "optionsPermissionsGrantButton": {
+    "message": "সব সাইটে অনুমতি দিন"
+  },
+  "optionsPermissionsRevokeButton": {
+    "message": "অনুমতি প্রত্যাহার করুন"
+  },
+  "optionsExtensionStateTitle": {
+    "message": "এক্সটেনশন স্ট্যাটাস"
+  },
+  "optionsReinjectButton": {
+    "message": "সব খোলা ট্যাবে পুনরায় সক্রিয় করুন"
+  },
+  "optionsReinjectDescription": {
+    "message": "যদি এক্সটেনশনটি ইতিমধ্যে খোলা ট্যাবে কাজ না করে তবে এই বোতামটি ব্যবহার করুন।"
+  },
+  "optionsInfoTitle": {
+    "message": "তথ্য"
+  },
+  "optionsInfoVersion": {
+    "message": "সংস্করণ:"
+  },
+  "optionsInfoStatus": {
+    "message": "স্ট্যাটাস:"
+  },
+  "optionsInfoActivationProblemTitle": {
+    "message": "সক্রিয়করণ সমস্যা?"
+  },
+  "optionsInfoActivationStep1": {
+    "message": "উপরে অনুমতি দিন"
+  },
+  "optionsInfoActivationStep2": {
+    "message": "যেখানে এক্সটেনশন কাজ করছে না সেই পৃষ্ঠাগুলি পুনরায় লোড করুন"
+  },
+  "optionsInfoActivationStep3": {
+    "message": "\"সব খোলা ট্যাবে পুনরায় সক্রিয় করুন\" বোতাম ব্যবহার করুন"
   }
 }

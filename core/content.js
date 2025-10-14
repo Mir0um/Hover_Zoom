@@ -149,6 +149,17 @@
     function createZoomElements() {
         if (document.getElementById('image-zoom-overlay')) {
             console.log('Hover Zoom: Elements already created');
+            // Update module variables if they're not set but DOM elements exist
+            if (!zoomOverlay) {
+                zoomOverlay = document.getElementById('image-zoom-overlay');
+                zoomOverlayImage = zoomOverlay.querySelector('img');
+                zoomOverlayVideo = zoomOverlay.querySelector('video');
+            }
+            if (!zoomViewer) {
+                zoomViewer = document.getElementById('image-zoom-viewer');
+                zoomViewerImage = zoomViewer.querySelector('img');
+                zoomViewerVideo = zoomViewer.querySelector('video');
+            }
             return;
         }
 
@@ -173,15 +184,17 @@
             if (document.body) {
                 document.body.appendChild(zoomOverlay);
                 document.body.appendChild(zoomViewer);
+                console.log('Hover Zoom: Elements created and added to DOM');
             } else {
                 // Si le body n'est pas encore disponible, attendre qu'il soit chargé
                 document.addEventListener('DOMContentLoaded', () => {
-                    document.body.appendChild(zoomOverlay);
-                    document.body.appendChild(zoomViewer);
-                });
+                    if (document.body) {
+                        document.body.appendChild(zoomOverlay);
+                        document.body.appendChild(zoomViewer);
+                        console.log('Hover Zoom: Elements created and added to DOM (deferred)');
+                    }
+                }, { once: true });
             }
-            
-            console.log('Hover Zoom: Elements created successfully');
         } catch (error) {
             console.error('Hover Zoom: Error creating elements:', error);
         }
@@ -236,8 +249,13 @@
             mutationObserver.disconnect();
             mutationObserver = null;
         }
+        // Nettoyer le gestionnaire mouseout de l'élément survolé
+        if (currentHoveredElement && currentHoveredElement._hoverZoomMouseOutHandler) {
+            currentHoveredElement.removeEventListener('mouseout', currentHoveredElement._hoverZoomMouseOutHandler);
+            delete currentHoveredElement._hoverZoomMouseOutHandler;
+        }
+        
         currentHoveredElement = null;
-        // La gestion du mouseout est maintenant sur l'élément lui-même, pas besoin de le retirer ici.
     }
 
     // MODIFIÉ: Logique de détection unifiée avec support du lazy loading
@@ -248,15 +266,15 @@
         
         // Vérifier que les éléments de zoom sont créés
         if (!zoomOverlay || !zoomViewer) {
-            console.warn('Hover Zoom: Zoom elements not created yet, attempting to create');
             createZoomElements();
-            // Wait a bit for elements to be added to DOM
-            setTimeout(() => {
-                if (zoomOverlay && zoomViewer) {
-                    handleMouseOver(event);
-                }
-            }, 50);
-            return;
+            // Only retry if elements were successfully created synchronously
+            if (zoomOverlay && zoomViewer) {
+                // Elements are ready, continue processing
+            } else {
+                // Elements will be created asynchronously, skip this event
+                console.log('Hover Zoom: Elements will be created asynchronously, skipping current hover event');
+                return;
+            }
         }
         
         let mediaUrl = null;
@@ -334,8 +352,8 @@
                 // Stocker le gestionnaire pour pouvoir le retirer plus tard
                 target._hoverZoomMouseOutHandler = mouseOutHandler;
                 
-                // Ajouter l'écouteur
-                target.addEventListener('mouseout', mouseOutHandler, { once: true });
+                // Ajouter l'écouteur SANS l'option once pour qu'il reste actif
+                target.addEventListener('mouseout', mouseOutHandler);
                 
                 showZoom(mediaUrl, event, mediaType);
                 // Observer les changements sur l'élément
@@ -480,7 +498,20 @@
 
     // MODIFIÉ: La fonction accepte directement une URL et le type de média
     function showZoom(mediaUrl, event, type = 'image') {
+        // Sauvegarder l'élément actuellement survolé avant de nettoyer
+        const elementToPreserve = currentHoveredElement;
+        const handlerToPreserve = elementToPreserve ? elementToPreserve._hoverZoomMouseOutHandler : null;
+        
         hideAllZoom();
+        
+        // Restaurer l'élément survolé après le nettoyage (pour les mutation observers)
+        currentHoveredElement = elementToPreserve;
+        
+        // Réattacher le gestionnaire mouseout si nécessaire
+        if (elementToPreserve && handlerToPreserve) {
+            elementToPreserve._hoverZoomMouseOutHandler = handlerToPreserve;
+            elementToPreserve.addEventListener('mouseout', handlerToPreserve);
+        }
 
         if (settings.zoomMode === 'page') {
             if (type === 'video') {

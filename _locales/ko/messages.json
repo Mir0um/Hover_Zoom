@@ -52,5 +52,95 @@
   },
   "footerInspiredBy": {
     "message": "영감을 받은 곳"
+  },
+  "linkAdvancedOptions": {
+    "message": "고급 옵션"
+  },
+  "optionsPageTitle": {
+    "message": "Hover Zoom - 옵션"
+  },
+  "optionsHeaderTitle": {
+    "message": "Hover Zoom - 옵션"
+  },
+  "optionsHeaderDescription": {
+    "message": "확장 프로그램 권한 및 설정 관리"
+  },
+  "optionsWelcomeTitle": {
+    "message": "🎉 Hover Zoom에 오신 것을 환영합니다!"
+  },
+  "optionsWelcomeThanks": {
+    "message": "Hover Zoom을 설치해 주셔서 감사합니다!"
+  },
+  "optionsWelcomeDefaultSettings": {
+    "message": "확장 프로그램이 기본 설정으로 구성되었습니다:"
+  },
+  "optionsWelcomeExtensionEnabled": {
+    "message": "✅ 확장 프로그램 활성화됨"
+  },
+  "optionsWelcomeZoomMode": {
+    "message": "✅ 줌 모드: 자연스러운 (커서 옆)"
+  },
+  "optionsWelcomeZoomFactor": {
+    "message": "✅ 줌 배율: 2x"
+  },
+  "optionsWelcomeFullUsage": {
+    "message": "확장 프로그램을 완전히 사용하려면:"
+  },
+  "optionsWelcomeStep1": {
+    "message": "모든 사이트에서 확장 프로그램이 작동하도록 아래 권한을 부여하세요"
+  },
+  "optionsWelcomeStep2": {
+    "message": "아무 웹페이지에서나 이미지 위에 마우스를 올리기만 하면 됩니다"
+  },
+  "optionsWelcomeStep3": {
+    "message": "Escape를 눌러 줌을 닫으세요"
+  },
+  "optionsWelcomeCloseButton": {
+    "message": "알겠습니다! 👍"
+  },
+  "optionsPermissionsTitle": {
+    "message": "웹사이트 액세스 권한"
+  },
+  "optionsPermissionsWhyTitle": {
+    "message": "이 권한이 왜 필요한가요?"
+  },
+  "optionsPermissionsWhyDescription": {
+    "message": "Hover Zoom은 이미지를 감지하고 미리보기를 표시하기 위해 웹 페이지에 액세스해야 합니다. 이 권한 없이는 확장 프로그램이 현재 활성 페이지에서만 작동할 수 있습니다."
+  },
+  "optionsPermissionsGrantButton": {
+    "message": "모든 사이트에 권한 부여"
+  },
+  "optionsPermissionsRevokeButton": {
+    "message": "권한 취소"
+  },
+  "optionsExtensionStateTitle": {
+    "message": "확장 프로그램 상태"
+  },
+  "optionsReinjectButton": {
+    "message": "열린 모든 탭에서 재활성화"
+  },
+  "optionsReinjectDescription": {
+    "message": "이미 열린 탭에서 확장 프로그램이 작동하지 않으면 이 버튼을 사용하세요."
+  },
+  "optionsInfoTitle": {
+    "message": "정보"
+  },
+  "optionsInfoVersion": {
+    "message": "버전:"
+  },
+  "optionsInfoStatus": {
+    "message": "상태:"
+  },
+  "optionsInfoActivationProblemTitle": {
+    "message": "활성화 문제?"
+  },
+  "optionsInfoActivationStep1": {
+    "message": "위의 권한 부여"
+  },
+  "optionsInfoActivationStep2": {
+    "message": "확장 프로그램이 작동하지 않는 페이지 다시 로드"
+  },
+  "optionsInfoActivationStep3": {
+    "message": "\"열린 모든 탭에서 재활성화\" 버튼 사용"
   }
 }

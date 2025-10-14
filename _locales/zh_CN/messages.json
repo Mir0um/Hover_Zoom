@@ -52,5 +52,95 @@
   },
   "footerInspiredBy": {
     "message": "灵感来源于"
+  },
+  "linkAdvancedOptions": {
+    "message": "高级选项"
+  },
+  "optionsPageTitle": {
+    "message": "Hover Zoom - 选项"
+  },
+  "optionsHeaderTitle": {
+    "message": "Hover Zoom - 选项"
+  },
+  "optionsHeaderDescription": {
+    "message": "管理扩展程序权限和设置"
+  },
+  "optionsWelcomeTitle": {
+    "message": "🎉 欢迎使用 Hover Zoom！"
+  },
+  "optionsWelcomeThanks": {
+    "message": "感谢您安装 Hover Zoom！"
+  },
+  "optionsWelcomeDefaultSettings": {
+    "message": "扩展程序已配置为默认设置："
+  },
+  "optionsWelcomeExtensionEnabled": {
+    "message": "✅ 扩展程序已启用"
+  },
+  "optionsWelcomeZoomMode": {
+    "message": "✅ 缩放模式：自然（光标旁边）"
+  },
+  "optionsWelcomeZoomFactor": {
+    "message": "✅ 缩放倍数：2x"
+  },
+  "optionsWelcomeFullUsage": {
+    "message": "要完全使用扩展程序："
+  },
+  "optionsWelcomeStep1": {
+    "message": "授予以下权限，以便扩展程序在所有网站上运行"
+  },
+  "optionsWelcomeStep2": {
+    "message": "只需将鼠标悬停在任何网页上的图像上"
+  },
+  "optionsWelcomeStep3": {
+    "message": "按 Escape 关闭缩放"
+  },
+  "optionsWelcomeCloseButton": {
+    "message": "明白了！ 👍"
+  },
+  "optionsPermissionsTitle": {
+    "message": "网站访问权限"
+  },
+  "optionsPermissionsWhyTitle": {
+    "message": "为什么需要此权限？"
+  },
+  "optionsPermissionsWhyDescription": {
+    "message": "Hover Zoom 需要访问网页来检测图像并显示预览。没有此权限，扩展程序只能在当前活动页面上工作。"
+  },
+  "optionsPermissionsGrantButton": {
+    "message": "授予所有网站权限"
+  },
+  "optionsPermissionsRevokeButton": {
+    "message": "撤销权限"
+  },
+  "optionsExtensionStateTitle": {
+    "message": "扩展状态"
+  },
+  "optionsReinjectButton": {
+    "message": "在所有打开的标签页上重新激活"
+  },
+  "optionsReinjectDescription": {
+    "message": "如果扩展在已打开的标签页上不起作用，请使用此按钮。"
+  },
+  "optionsInfoTitle": {
+    "message": "信息"
+  },
+  "optionsInfoVersion": {
+    "message": "版本："
+  },
+  "optionsInfoStatus": {
+    "message": "状态："
+  },
+  "optionsInfoActivationProblemTitle": {
+    "message": "激活问题？"
+  },
+  "optionsInfoActivationStep1": {
+    "message": "授予上述权限"
+  },
+  "optionsInfoActivationStep2": {
+    "message": "重新加载扩展不起作用的页面"
+  },
+  "optionsInfoActivationStep3": {
+    "message": "使用\"在所有打开的标签页上重新激活\"按钮"
   }
 }

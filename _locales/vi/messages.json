@@ -52,5 +52,95 @@
   },
   "footerInspiredBy": {
     "message": "Lấy cảm hứng từ"
+  },
+  "linkAdvancedOptions": {
+    "message": "Tùy chọn nâng cao"
+  },
+  "optionsPageTitle": {
+    "message": "Hover Zoom - Tùy chọn"
+  },
+  "optionsHeaderTitle": {
+    "message": "Hover Zoom - Tùy chọn"
+  },
+  "optionsHeaderDescription": {
+    "message": "Quản lý quyền và cài đặt tiện ích mở rộng"
+  },
+  "optionsWelcomeTitle": {
+    "message": "🎉 Chào mừng bạn đến với Hover Zoom!"
+  },
+  "optionsWelcomeThanks": {
+    "message": "Cảm ơn bạn đã cài đặt Hover Zoom!"
+  },
+  "optionsWelcomeDefaultSettings": {
+    "message": "Tiện ích mở rộng đã được cấu hình với cài đặt mặc định:"
+  },
+  "optionsWelcomeExtensionEnabled": {
+    "message": "✅ Tiện ích mở rộng đã bật"
+  },
+  "optionsWelcomeZoomMode": {
+    "message": "✅ Chế độ phóng to: Tự nhiên (bên cạnh con trỏ)"
+  },
+  "optionsWelcomeZoomFactor": {
+    "message": "✅ Hệ số phóng to: 2x"
+  },
+  "optionsWelcomeFullUsage": {
+    "message": "Để sử dụng đầy đủ tiện ích mở rộng:"
+  },
+  "optionsWelcomeStep1": {
+    "message": "Cấp quyền bên dưới để tiện ích mở rộng hoạt động trên tất cả các trang web"
+  },
+  "optionsWelcomeStep2": {
+    "message": "Chỉ cần di chuột qua hình ảnh trên bất kỳ trang web nào"
+  },
+  "optionsWelcomeStep3": {
+    "message": "Nhấn Escape để đóng zoom"
+  },
+  "optionsWelcomeCloseButton": {
+    "message": "Hiểu rồi! 👍"
+  },
+  "optionsPermissionsTitle": {
+    "message": "Quyền truy cập trang web"
+  },
+  "optionsPermissionsWhyTitle": {
+    "message": "Tại sao quyền này cần thiết?"
+  },
+  "optionsPermissionsWhyDescription": {
+    "message": "Hover Zoom cần truy cập vào các trang web để phát hiện hình ảnh và hiển thị bản xem trước. Không có quyền này, tiện ích mở rộng chỉ có thể hoạt động trên trang hoạt động hiện tại."
+  },
+  "optionsPermissionsGrantButton": {
+    "message": "Cấp quyền cho tất cả các trang"
+  },
+  "optionsPermissionsRevokeButton": {
+    "message": "Thu hồi quyền"
+  },
+  "optionsExtensionStateTitle": {
+    "message": "Trạng thái tiện ích"
+  },
+  "optionsReinjectButton": {
+    "message": "Kích hoạt lại trên tất cả các tab đang mở"
+  },
+  "optionsReinjectDescription": {
+    "message": "Sử dụng nút này nếu tiện ích không hoạt động trên các tab đã mở."
+  },
+  "optionsInfoTitle": {
+    "message": "Thông tin"
+  },
+  "optionsInfoVersion": {
+    "message": "Phiên bản:"
+  },
+  "optionsInfoStatus": {
+    "message": "Trạng thái:"
+  },
+  "optionsInfoActivationProblemTitle": {
+    "message": "Vấn đề kích hoạt?"
+  },
+  "optionsInfoActivationStep1": {
+    "message": "Cấp quyền ở trên"
+  },
+  "optionsInfoActivationStep2": {
+    "message": "Tải lại các trang mà tiện ích không hoạt động"
+  },
+  "optionsInfoActivationStep3": {
+    "message": "Sử dụng nút \"Kích hoạt lại trên tất cả các tab đang mở\""
   }
 }
