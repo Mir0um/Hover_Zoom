@@ -52,5 +52,95 @@
   },
   "footerInspiredBy": {
     "message": "Terinspirasi oleh"
+  },
+  "linkAdvancedOptions": {
+    "message": "Opsi lanjutan"
+  },
+  "optionsPageTitle": {
+    "message": "Hover Zoom - Opsi"
+  },
+  "optionsHeaderTitle": {
+    "message": "Hover Zoom - Opsi"
+  },
+  "optionsHeaderDescription": {
+    "message": "Kelola izin dan pengaturan ekstensi"
+  },
+  "optionsWelcomeTitle": {
+    "message": "🎉 Selamat datang di Hover Zoom!"
+  },
+  "optionsWelcomeThanks": {
+    "message": "Terima kasih telah menginstal Hover Zoom!"
+  },
+  "optionsWelcomeDefaultSettings": {
+    "message": "Ekstensi telah dikonfigurasi dengan pengaturan default:"
+  },
+  "optionsWelcomeExtensionEnabled": {
+    "message": "✅ Ekstensi diaktifkan"
+  },
+  "optionsWelcomeZoomMode": {
+    "message": "✅ Mode zoom: Alami (di samping kursor)"
+  },
+  "optionsWelcomeZoomFactor": {
+    "message": "✅ Faktor zoom: 2x"
+  },
+  "optionsWelcomeFullUsage": {
+    "message": "Untuk menggunakan ekstensi sepenuhnya:"
+  },
+  "optionsWelcomeStep1": {
+    "message": "Berikan izin di bawah ini agar ekstensi berfungsi di semua situs"
+  },
+  "optionsWelcomeStep2": {
+    "message": "Cukup arahkan kursor ke gambar di halaman web mana pun"
+  },
+  "optionsWelcomeStep3": {
+    "message": "Tekan Escape untuk menutup zoom"
+  },
+  "optionsWelcomeCloseButton": {
+    "message": "Mengerti! 👍"
+  },
+  "optionsPermissionsTitle": {
+    "message": "Izin Akses Situs Web"
+  },
+  "optionsPermissionsWhyTitle": {
+    "message": "Mengapa izin ini diperlukan?"
+  },
+  "optionsPermissionsWhyDescription": {
+    "message": "Hover Zoom memerlukan akses ke halaman web untuk mendeteksi gambar dan menampilkan pratinjau. Tanpa izin ini, ekstensi hanya dapat bekerja di halaman aktif saat ini."
+  },
+  "optionsPermissionsGrantButton": {
+    "message": "Berikan izin ke semua situs"
+  },
+  "optionsPermissionsRevokeButton": {
+    "message": "Cabut izin"
+  },
+  "optionsExtensionStateTitle": {
+    "message": "Status Ekstensi"
+  },
+  "optionsReinjectButton": {
+    "message": "Aktifkan kembali di semua tab yang terbuka"
+  },
+  "optionsReinjectDescription": {
+    "message": "Gunakan tombol ini jika ekstensi tidak berfungsi pada tab yang sudah terbuka."
+  },
+  "optionsInfoTitle": {
+    "message": "Informasi"
+  },
+  "optionsInfoVersion": {
+    "message": "Versi:"
+  },
+  "optionsInfoStatus": {
+    "message": "Status:"
+  },
+  "optionsInfoActivationProblemTitle": {
+    "message": "Masalah aktivasi?"
+  },
+  "optionsInfoActivationStep1": {
+    "message": "Berikan izin di atas"
+  },
+  "optionsInfoActivationStep2": {
+    "message": "Muat ulang halaman di mana ekstensi tidak berfungsi"
+  },
+  "optionsInfoActivationStep3": {
+    "message": "Gunakan tombol \"Aktifkan kembali di semua tab yang terbuka\""
   }
 }

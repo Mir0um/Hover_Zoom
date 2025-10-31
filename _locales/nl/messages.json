@@ -52,5 +52,95 @@
   },
   "footerInspiredBy": {
     "message": "Geïnspireerd door"
+  },
+  "linkAdvancedOptions": {
+    "message": "Geavanceerde opties"
+  },
+  "optionsPageTitle": {
+    "message": "Hover Zoom - Opties"
+  },
+  "optionsHeaderTitle": {
+    "message": "Hover Zoom - Opties"
+  },
+  "optionsHeaderDescription": {
+    "message": "Beheer extensie-machtigingen en instellingen"
+  },
+  "optionsWelcomeTitle": {
+    "message": "🎉 Welkom bij Hover Zoom!"
+  },
+  "optionsWelcomeThanks": {
+    "message": "Bedankt voor het installeren van Hover Zoom!"
+  },
+  "optionsWelcomeDefaultSettings": {
+    "message": "De extensie is geconfigureerd met standaardinstellingen:"
+  },
+  "optionsWelcomeExtensionEnabled": {
+    "message": "✅ Extensie ingeschakeld"
+  },
+  "optionsWelcomeZoomMode": {
+    "message": "✅ Zoommodus: Natuurlijk (naast de cursor)"
+  },
+  "optionsWelcomeZoomFactor": {
+    "message": "✅ Zoomfactor: 2x"
+  },
+  "optionsWelcomeFullUsage": {
+    "message": "Om de extensie volledig te gebruiken:"
+  },
+  "optionsWelcomeStep1": {
+    "message": "Geef de onderstaande machtigingen zodat de extensie op alle sites werkt"
+  },
+  "optionsWelcomeStep2": {
+    "message": "Beweeg gewoon over een afbeelding op elke webpagina"
+  },
+  "optionsWelcomeStep3": {
+    "message": "Druk op Escape om de zoom te sluiten"
+  },
+  "optionsWelcomeCloseButton": {
+    "message": "Begrepen! 👍"
+  },
+  "optionsPermissionsTitle": {
+    "message": "Website-toegangsmachtigingen"
+  },
+  "optionsPermissionsWhyTitle": {
+    "message": "Waarom is deze machtiging nodig?"
+  },
+  "optionsPermissionsWhyDescription": {
+    "message": "Hover Zoom heeft toegang tot webpagina's nodig om afbeeldingen te detecteren en voorvertoningen weer te geven. Zonder deze machtiging kan de extensie alleen werken op de huidige actieve pagina."
+  },
+  "optionsPermissionsGrantButton": {
+    "message": "Machtigingen verlenen aan alle sites"
+  },
+  "optionsPermissionsRevokeButton": {
+    "message": "Machtigingen intrekken"
+  },
+  "optionsExtensionStateTitle": {
+    "message": "Extensiestatus"
+  },
+  "optionsReinjectButton": {
+    "message": "Opnieuw activeren op alle geopende tabbladen"
+  },
+  "optionsReinjectDescription": {
+    "message": "Gebruik deze knop als de extensie niet werkt op reeds geopende tabbladen."
+  },
+  "optionsInfoTitle": {
+    "message": "Informatie"
+  },
+  "optionsInfoVersion": {
+    "message": "Versie:"
+  },
+  "optionsInfoStatus": {
+    "message": "Status:"
+  },
+  "optionsInfoActivationProblemTitle": {
+    "message": "Activeringsprobleem?"
+  },
+  "optionsInfoActivationStep1": {
+    "message": "Verleen de bovenstaande machtigingen"
+  },
+  "optionsInfoActivationStep2": {
+    "message": "Herlaad pagina's waar de extensie niet werkt"
+  },
+  "optionsInfoActivationStep3": {
+    "message": "Gebruik de knop \"Opnieuw activeren op alle geopende tabbladen\""
   }
 }

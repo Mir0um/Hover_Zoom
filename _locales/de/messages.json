@@ -52,5 +52,95 @@
   },
   "footerInspiredBy": {
     "message": "Inspiriert von"
+  },
+  "linkAdvancedOptions": {
+    "message": "Erweiterte Optionen"
+  },
+  "optionsPageTitle": {
+    "message": "Hover Zoom - Optionen"
+  },
+  "optionsHeaderTitle": {
+    "message": "Hover Zoom - Optionen"
+  },
+  "optionsHeaderDescription": {
+    "message": "Erweiterungsberechtigungen und -einstellungen verwalten"
+  },
+  "optionsWelcomeTitle": {
+    "message": "🎉 Willkommen bei Hover Zoom!"
+  },
+  "optionsWelcomeThanks": {
+    "message": "Vielen Dank für die Installation von Hover Zoom!"
+  },
+  "optionsWelcomeDefaultSettings": {
+    "message": "Die Erweiterung wurde mit Standardeinstellungen konfiguriert:"
+  },
+  "optionsWelcomeExtensionEnabled": {
+    "message": "✅ Erweiterung aktiviert"
+  },
+  "optionsWelcomeZoomMode": {
+    "message": "✅ Zoom-Modus: Natürlich (neben dem Cursor)"
+  },
+  "optionsWelcomeZoomFactor": {
+    "message": "✅ Zoom-Faktor: 2x"
+  },
+  "optionsWelcomeFullUsage": {
+    "message": "Um die Erweiterung vollständig zu nutzen:"
+  },
+  "optionsWelcomeStep1": {
+    "message": "Erteilen Sie die unten stehenden Berechtigungen, damit die Erweiterung auf allen Websites funktioniert"
+  },
+  "optionsWelcomeStep2": {
+    "message": "Fahren Sie einfach mit der Maus über ein Bild auf einer beliebigen Webseite"
+  },
+  "optionsWelcomeStep3": {
+    "message": "Drücken Sie Escape, um den Zoom zu schließen"
+  },
+  "optionsWelcomeCloseButton": {
+    "message": "Verstanden! 👍"
+  },
+  "optionsPermissionsTitle": {
+    "message": "Website-Zugriffsberechtigungen"
+  },
+  "optionsPermissionsWhyTitle": {
+    "message": "Warum ist diese Berechtigung erforderlich?"
+  },
+  "optionsPermissionsWhyDescription": {
+    "message": "Hover Zoom benötigt Zugriff auf Webseiten, um Bilder zu erkennen und Vorschauen anzuzeigen. Ohne diese Berechtigung kann die Erweiterung nur auf der aktuell aktiven Seite funktionieren."
+  },
+  "optionsPermissionsGrantButton": {
+    "message": "Berechtigungen für alle Websites erteilen"
+  },
+  "optionsPermissionsRevokeButton": {
+    "message": "Berechtigungen widerrufen"
+  },
+  "optionsExtensionStateTitle": {
+    "message": "Erweiterungsstatus"
+  },
+  "optionsReinjectButton": {
+    "message": "Auf allen geöffneten Tabs erneut aktivieren"
+  },
+  "optionsReinjectDescription": {
+    "message": "Verwenden Sie diese Schaltfläche, wenn die Erweiterung auf bereits geöffneten Tabs nicht funktioniert."
+  },
+  "optionsInfoTitle": {
+    "message": "Informationen"
+  },
+  "optionsInfoVersion": {
+    "message": "Version:"
+  },
+  "optionsInfoStatus": {
+    "message": "Status:"
+  },
+  "optionsInfoActivationProblemTitle": {
+    "message": "Aktivierungsproblem?"
+  },
+  "optionsInfoActivationStep1": {
+    "message": "Erteilen Sie die oben genannten Berechtigungen"
+  },
+  "optionsInfoActivationStep2": {
+    "message": "Laden Sie Seiten neu, auf denen die Erweiterung nicht funktioniert"
+  },
+  "optionsInfoActivationStep3": {
+    "message": "Verwenden Sie die Schaltfläche \"Auf allen geöffneten Tabs erneut aktivieren\""
   }
 }

@@ -52,5 +52,95 @@
   },
   "footerInspiredBy": {
     "message": "Inspirerad av"
+  },
+  "linkAdvancedOptions": {
+    "message": "Avancerade alternativ"
+  },
+  "optionsPageTitle": {
+    "message": "Hover Zoom - Alternativ"
+  },
+  "optionsHeaderTitle": {
+    "message": "Hover Zoom - Alternativ"
+  },
+  "optionsHeaderDescription": {
+    "message": "Hantera tilläggets behörigheter och inställningar"
+  },
+  "optionsWelcomeTitle": {
+    "message": "🎉 Välkommen till Hover Zoom!"
+  },
+  "optionsWelcomeThanks": {
+    "message": "Tack för att du installerade Hover Zoom!"
+  },
+  "optionsWelcomeDefaultSettings": {
+    "message": "Tillägget har konfigurerats med standardinställningar:"
+  },
+  "optionsWelcomeExtensionEnabled": {
+    "message": "✅ Tillägg aktiverat"
+  },
+  "optionsWelcomeZoomMode": {
+    "message": "✅ Zoomläge: Naturligt (bredvid markören)"
+  },
+  "optionsWelcomeZoomFactor": {
+    "message": "✅ Zoomfaktor: 2x"
+  },
+  "optionsWelcomeFullUsage": {
+    "message": "För att använda tillägget fullt ut:"
+  },
+  "optionsWelcomeStep1": {
+    "message": "Ge behörigheterna nedan så att tillägget fungerar på alla webbplatser"
+  },
+  "optionsWelcomeStep2": {
+    "message": "Håll bara musen över en bild på vilken webbsida som helst"
+  },
+  "optionsWelcomeStep3": {
+    "message": "Tryck på Escape för att stänga zoom"
+  },
+  "optionsWelcomeCloseButton": {
+    "message": "Förstått! 👍"
+  },
+  "optionsPermissionsTitle": {
+    "message": "Webbplats-åtkomstbehörigheter"
+  },
+  "optionsPermissionsWhyTitle": {
+    "message": "Varför behövs denna behörighet?"
+  },
+  "optionsPermissionsWhyDescription": {
+    "message": "Hover Zoom behöver åtkomst till webbsidor för att upptäcka bilder och visa förhandsvisningar. Utan denna behörighet kan tillägget bara fungera på den aktuella aktiva sidan."
+  },
+  "optionsPermissionsGrantButton": {
+    "message": "Bevilja behörigheter till alla webbplatser"
+  },
+  "optionsPermissionsRevokeButton": {
+    "message": "Återkalla behörigheter"
+  },
+  "optionsExtensionStateTitle": {
+    "message": "Tilläggets status"
+  },
+  "optionsReinjectButton": {
+    "message": "Återaktivera på alla öppna flikar"
+  },
+  "optionsReinjectDescription": {
+    "message": "Använd den här knappen om tillägget inte fungerar på redan öppna flikar."
+  },
+  "optionsInfoTitle": {
+    "message": "Information"
+  },
+  "optionsInfoVersion": {
+    "message": "Version:"
+  },
+  "optionsInfoStatus": {
+    "message": "Status:"
+  },
+  "optionsInfoActivationProblemTitle": {
+    "message": "Aktiveringsproblem?"
+  },
+  "optionsInfoActivationStep1": {
+    "message": "Bevilja behörigheterna ovan"
+  },
+  "optionsInfoActivationStep2": {
+    "message": "Ladda om sidor där tillägget inte fungerar"
+  },
+  "optionsInfoActivationStep3": {
+    "message": "Använd knappen \"Återaktivera på alla öppna flikar\""
   }
 }

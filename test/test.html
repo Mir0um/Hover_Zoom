@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images Défilantes et Alternantes</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex; /* Utiliser Flexbox pour aligner les sections côte à côte */
+            gap: 20px; /* Espace entre les deux sections */
+            height: 100vh; /* Faire en sorte que le corps occupe toute la hauteur de la fenêtre */
+            box-sizing: border-box; /* Inclure le padding et la bordure dans la taille totale */
+        }
+
+        .container {
+            flex: 1; /* Permettre à chaque section de prendre l'espace disponible */
+            border: 1px solid #ccc; /* Bordure pour visualiser les sections */
+            overflow: hidden; /* Masquer les images si elles débordent */
+            position: relative; /* Nécessaire pour le positionnement absolu des images */
+            display: flex; /* Flexbox pour centrer le contenu à l'intérieur */
+            justify-content: center; /* Centrer horizontalement */
+            align-items: center; /* Centrer verticalement */
+        }
+
+        /* Styles pour la section de gauche (image alternante) */
+        .left-section {
+            max-width: 300px; /* Largeur maximale pour la section de gauche */
+            height: 300px; /* Hauteur fixe pour la section de gauche */
+        }
+
+        .left-section img {
+            max-width: 100%; /* S'assurer que l'image ne dépasse pas son conteneur */
+            max-height: 100%; /* S'assurer que l'image ne dépasse pas son conteneur */
+            display: block; /* Supprimer l'espace supplémentaire sous l'image */
+            position: absolute; /* Positionnement absolu à l'intérieur du conteneur */
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ajuster l'image pour couvrir le conteneur sans la déformer */
+            animation: alternate-fade 2s infinite ease-in-out; /* Appliquer l'animation */
+        }
+
+        @keyframes alternate-fade {
+            0% { opacity: 1; } /* Complètement visible */
+            50% { opacity: 0; } /* Complètement invisible */
+            100% { opacity: 1; } /* Complètement visible */
+        }
+
+        /* Styles pour la section de droite (images défilantes) */
+        .right-section {
+            flex: 2; /* Permettre à cette section de prendre deux fois plus d'espace */
+            height: 300px; /* Hauteur fixe pour la section de droite */
+            overflow: hidden; /* Masquer les images qui débordent */
+            position: relative; /* Nécessaire pour le positionnement absolu des images */
+        }
+
+        .right-section img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ajuster l'image pour couvrir le conteneur sans la déformer */
+            display: block; /* Supprimer l'espace supplémentaire sous l'image */
+            opacity: 0; /* Commencer toutes les images invisibles */
+            animation: image-scroll 10s linear infinite; /* Appliquer l'animation de défilement */
+        }
+
+        /* Délais d'animation différents pour chaque image */
+        .right-section img:nth-child(1) { animation-delay: 0s; }
+        .right-section img:nth-child(2) { animation-delay: 2s; }
+        .right-section img:nth-child(3) { animation-delay: 4s; }
+        .right-section img:nth-child(4) { animation-delay: 6s; }
+        .right-section img:nth-child(5) { animation-delay: 8s; }
+        /* Ajoutez d'autres règles :nth-child() si vous avez plus d'images */
+
+        @keyframes image-scroll {
+            0% { transform: translateY(0); opacity: 0; } /* Commencer en haut, invisible */
+            5% { transform: translateY(0); opacity: 1; } /* Apparaitre au début */
+            15% { transform: translateY(0); opacity: 1; } /* Rester visible un certain temps */
+            20% { transform: translateY(-300px); opacity: 1; } /* Déplacer vers le haut tout en restant visible */
+            25% { transform: translateY(-300px); opacity: 0; } /* Disparaitre après avoir atteint le haut */
+            100% { transform: translateY(0); opacity: 0; } /* Revenir en haut, invisible pour le prochain cycle */
+            /* Ajustez la valeur '-300px' en fonction de la hauteur de vos images */
+            /* Ajustez les pourcentages (0%, 5%, 15%, 20%, 25%, 100%) pour paramétrer le timing */
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container left-section">
+        <img src="../img/logo.png" alt="Image Alternante">
+    </div>
+
+    <div class="container right-section">
+        <img src="../icons/icon128.png" alt="Image 1">
+        <img src="../icons/icon48.png" alt="Image 2">
+        <img src="../icons/icon16.png" alt="Image 3">
+        <img src="../img/logo.png" alt="Image 4">
+        <img src="../icons/icon128.png" alt="Image 5">
+        <!-- Ajoutez d'autres images ici si nécessaire -->
+    </div>
+
+</body>
+</html>

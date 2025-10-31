@@ -52,5 +52,95 @@
   },
   "footerInspiredBy": {
     "message": "İlham kaynağı"
+  },
+  "linkAdvancedOptions": {
+    "message": "Gelişmiş seçenekler"
+  },
+  "optionsPageTitle": {
+    "message": "Hover Zoom - Seçenekler"
+  },
+  "optionsHeaderTitle": {
+    "message": "Hover Zoom - Seçenekler"
+  },
+  "optionsHeaderDescription": {
+    "message": "Uzantı izinlerini ve ayarlarını yönet"
+  },
+  "optionsWelcomeTitle": {
+    "message": "🎉 Hover Zoom'a hoş geldiniz!"
+  },
+  "optionsWelcomeThanks": {
+    "message": "Hover Zoom'u yüklediğiniz için teşekkürler!"
+  },
+  "optionsWelcomeDefaultSettings": {
+    "message": "Uzantı varsayılan ayarlarla yapılandırıldı:"
+  },
+  "optionsWelcomeExtensionEnabled": {
+    "message": "✅ Uzantı etkinleştirildi"
+  },
+  "optionsWelcomeZoomMode": {
+    "message": "✅ Yakınlaştırma modu: Doğal (imlecin yanında)"
+  },
+  "optionsWelcomeZoomFactor": {
+    "message": "✅ Yakınlaştırma faktörü: 2x"
+  },
+  "optionsWelcomeFullUsage": {
+    "message": "Uzantıyı tam olarak kullanmak için:"
+  },
+  "optionsWelcomeStep1": {
+    "message": "Uzantının tüm sitelerde çalışması için aşağıdaki izinleri verin"
+  },
+  "optionsWelcomeStep2": {
+    "message": "Herhangi bir web sayfasında bir resmin üzerine fare ile gelin"
+  },
+  "optionsWelcomeStep3": {
+    "message": "Yakınlaştırmayı kapatmak için Escape'e basın"
+  },
+  "optionsWelcomeCloseButton": {
+    "message": "Anladım! 👍"
+  },
+  "optionsPermissionsTitle": {
+    "message": "Web Sitesi Erişim İzinleri"
+  },
+  "optionsPermissionsWhyTitle": {
+    "message": "Bu izin neden gerekli?"
+  },
+  "optionsPermissionsWhyDescription": {
+    "message": "Hover Zoom, resimleri algılamak ve önizlemeleri görüntülemek için web sayfalarına erişim gerektirir. Bu izin olmadan uzantı yalnızca mevcut etkin sayfada çalışabilir."
+  },
+  "optionsPermissionsGrantButton": {
+    "message": "Tüm sitelere izin ver"
+  },
+  "optionsPermissionsRevokeButton": {
+    "message": "İzinleri iptal et"
+  },
+  "optionsExtensionStateTitle": {
+    "message": "Uzantı Durumu"
+  },
+  "optionsReinjectButton": {
+    "message": "Tüm açık sekmelerde yeniden etkinleştir"
+  },
+  "optionsReinjectDescription": {
+    "message": "Uzantı zaten açık olan sekmelerde çalışmıyorsa bu düğmeyi kullanın."
+  },
+  "optionsInfoTitle": {
+    "message": "Bilgi"
+  },
+  "optionsInfoVersion": {
+    "message": "Sürüm:"
+  },
+  "optionsInfoStatus": {
+    "message": "Durum:"
+  },
+  "optionsInfoActivationProblemTitle": {
+    "message": "Etkinleştirme sorunu?"
+  },
+  "optionsInfoActivationStep1": {
+    "message": "Yukarıdaki izinleri verin"
+  },
+  "optionsInfoActivationStep2": {
+    "message": "Uzantının çalışmadığı sayfaları yeniden yükleyin"
+  },
+  "optionsInfoActivationStep3": {
+    "message": "\"Tüm açık sekmelerde yeniden etkinleştir\" düğmesini kullanın"
   }
 }

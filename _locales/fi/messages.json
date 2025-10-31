@@ -52,5 +52,95 @@
   },
   "footerInspiredBy": {
     "message": "Inspiroitunut"
+  },
+  "linkAdvancedOptions": {
+    "message": "Lisäasetukset"
+  },
+  "optionsPageTitle": {
+    "message": "Hover Zoom - Asetukset"
+  },
+  "optionsHeaderTitle": {
+    "message": "Hover Zoom - Asetukset"
+  },
+  "optionsHeaderDescription": {
+    "message": "Hallitse laajennuksen käyttöoikeuksia ja asetuksia"
+  },
+  "optionsWelcomeTitle": {
+    "message": "🎉 Tervetuloa Hover Zoomiin!"
+  },
+  "optionsWelcomeThanks": {
+    "message": "Kiitos Hover Zoomin asentamisesta!"
+  },
+  "optionsWelcomeDefaultSettings": {
+    "message": "Laajennus on määritetty oletusasetuksilla:"
+  },
+  "optionsWelcomeExtensionEnabled": {
+    "message": "✅ Laajennus käytössä"
+  },
+  "optionsWelcomeZoomMode": {
+    "message": "✅ Zoomaus-tila: Luonnollinen (kursorin vieressä)"
+  },
+  "optionsWelcomeZoomFactor": {
+    "message": "✅ Zoomauskerroin: 2x"
+  },
+  "optionsWelcomeFullUsage": {
+    "message": "Laajennuksen täydelliseen käyttöön:"
+  },
+  "optionsWelcomeStep1": {
+    "message": "Myönnä alla olevat käyttöoikeudet, jotta laajennus toimii kaikilla sivustoilla"
+  },
+  "optionsWelcomeStep2": {
+    "message": "Vie hiiri kuvan päälle millä tahansa verkkosivulla"
+  },
+  "optionsWelcomeStep3": {
+    "message": "Paina Escape sulkeaksesi zoomauksen"
+  },
+  "optionsWelcomeCloseButton": {
+    "message": "Ymmärsin! 👍"
+  },
+  "optionsPermissionsTitle": {
+    "message": "Verkkosivujen käyttöoikeudet"
+  },
+  "optionsPermissionsWhyTitle": {
+    "message": "Miksi tämä käyttöoikeus on tarpeen?"
+  },
+  "optionsPermissionsWhyDescription": {
+    "message": "Hover Zoom tarvitsee pääsyn verkkosivuille kuvatunnistusta ja esikatselua varten. Ilman tätä käyttöoikeutta laajennus voi toimia vain nykyisellä aktiivisella sivulla."
+  },
+  "optionsPermissionsGrantButton": {
+    "message": "Myönnä luvat kaikille sivustoille"
+  },
+  "optionsPermissionsRevokeButton": {
+    "message": "Peruuta luvat"
+  },
+  "optionsExtensionStateTitle": {
+    "message": "Laajennuksen tila"
+  },
+  "optionsReinjectButton": {
+    "message": "Aktivoi uudelleen kaikissa avoimissa välilehdissä"
+  },
+  "optionsReinjectDescription": {
+    "message": "Käytä tätä painiketta, jos laajennus ei toimi jo avoimissa välilehdissä."
+  },
+  "optionsInfoTitle": {
+    "message": "Tiedot"
+  },
+  "optionsInfoVersion": {
+    "message": "Versio:"
+  },
+  "optionsInfoStatus": {
+    "message": "Tila:"
+  },
+  "optionsInfoActivationProblemTitle": {
+    "message": "Aktivointiongelma?"
+  },
+  "optionsInfoActivationStep1": {
+    "message": "Myönnä yllä olevat luvat"
+  },
+  "optionsInfoActivationStep2": {
+    "message": "Lataa uudelleen sivut, joissa laajennus ei toimi"
+  },
+  "optionsInfoActivationStep3": {
+    "message": "Käytä \"Aktivoi uudelleen kaikissa avoimissa välilehdissä\" -painiketta"
   }
 }

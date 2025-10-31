@@ -52,5 +52,95 @@
   },
   "footerInspiredBy": {
     "message": "Inspirert av"
+  },
+  "linkAdvancedOptions": {
+    "message": "Avanserte alternativer"
+  },
+  "optionsPageTitle": {
+    "message": "Hover Zoom - Alternativer"
+  },
+  "optionsHeaderTitle": {
+    "message": "Hover Zoom - Alternativer"
+  },
+  "optionsHeaderDescription": {
+    "message": "Administrer utvidelsens tillatelser og innstillinger"
+  },
+  "optionsWelcomeTitle": {
+    "message": "🎉 Velkommen til Hover Zoom!"
+  },
+  "optionsWelcomeThanks": {
+    "message": "Takk for at du installerte Hover Zoom!"
+  },
+  "optionsWelcomeDefaultSettings": {
+    "message": "Utvidelsen er konfigurert med standardinnstillinger:"
+  },
+  "optionsWelcomeExtensionEnabled": {
+    "message": "✅ Utvidelse aktivert"
+  },
+  "optionsWelcomeZoomMode": {
+    "message": "✅ Zoom-modus: Naturlig (ved siden av markøren)"
+  },
+  "optionsWelcomeZoomFactor": {
+    "message": "✅ Zoom-faktor: 2x"
+  },
+  "optionsWelcomeFullUsage": {
+    "message": "For å bruke utvidelsen fullt ut:"
+  },
+  "optionsWelcomeStep1": {
+    "message": "Gi tillatelsene nedenfor slik at utvidelsen fungerer på alle nettsteder"
+  },
+  "optionsWelcomeStep2": {
+    "message": "Bare hold musen over et bilde på en hvilken som helst nettside"
+  },
+  "optionsWelcomeStep3": {
+    "message": "Trykk Escape for å lukke zoom"
+  },
+  "optionsWelcomeCloseButton": {
+    "message": "Skjønner! 👍"
+  },
+  "optionsPermissionsTitle": {
+    "message": "Nettsted-tilgangstillatelser"
+  },
+  "optionsPermissionsWhyTitle": {
+    "message": "Hvorfor er denne tillatelsen nødvendig?"
+  },
+  "optionsPermissionsWhyDescription": {
+    "message": "Hover Zoom trenger tilgang til nettsider for å oppdage bilder og vise forhåndsvisninger. Uten denne tillatelsen kan utvidelsen kun fungere på gjeldende aktive side."
+  },
+  "optionsPermissionsGrantButton": {
+    "message": "Gi tillatelser til alle nettsteder"
+  },
+  "optionsPermissionsRevokeButton": {
+    "message": "Tilbakekall tillatelser"
+  },
+  "optionsExtensionStateTitle": {
+    "message": "Utvidelsens status"
+  },
+  "optionsReinjectButton": {
+    "message": "Reaktiver på alle åpne faner"
+  },
+  "optionsReinjectDescription": {
+    "message": "Bruk denne knappen hvis utvidelsen ikke fungerer på allerede åpne faner."
+  },
+  "optionsInfoTitle": {
+    "message": "Informasjon"
+  },
+  "optionsInfoVersion": {
+    "message": "Versjon:"
+  },
+  "optionsInfoStatus": {
+    "message": "Status:"
+  },
+  "optionsInfoActivationProblemTitle": {
+    "message": "Aktiveringsproblem?"
+  },
+  "optionsInfoActivationStep1": {
+    "message": "Gi tillatelsene ovenfor"
+  },
+  "optionsInfoActivationStep2": {
+    "message": "Last inn sider på nytt hvor utvidelsen ikke fungerer"
+  },
+  "optionsInfoActivationStep3": {
+    "message": "Bruk knappen \"Reaktiver på alle åpne faner\""
   }
 }

@@ -52,5 +52,95 @@
   },
   "footerInspiredBy": {
     "message": "Diilhamkan oleh"
+  },
+  "linkAdvancedOptions": {
+    "message": "Pilihan lanjutan"
+  },
+  "optionsPageTitle": {
+    "message": "Hover Zoom - Pilihan"
+  },
+  "optionsHeaderTitle": {
+    "message": "Hover Zoom - Pilihan"
+  },
+  "optionsHeaderDescription": {
+    "message": "Urus kebenaran dan tetapan sambungan"
+  },
+  "optionsWelcomeTitle": {
+    "message": "🎉 Selamat datang ke Hover Zoom!"
+  },
+  "optionsWelcomeThanks": {
+    "message": "Terima kasih kerana memasang Hover Zoom!"
+  },
+  "optionsWelcomeDefaultSettings": {
+    "message": "Sambungan telah dikonfigurasi dengan tetapan lalai:"
+  },
+  "optionsWelcomeExtensionEnabled": {
+    "message": "✅ Sambungan diaktifkan"
+  },
+  "optionsWelcomeZoomMode": {
+    "message": "✅ Mod zum: Semula jadi (di sebelah kursor)"
+  },
+  "optionsWelcomeZoomFactor": {
+    "message": "✅ Faktor zum: 2x"
+  },
+  "optionsWelcomeFullUsage": {
+    "message": "Untuk menggunakan sambungan sepenuhnya:"
+  },
+  "optionsWelcomeStep1": {
+    "message": "Berikan kebenaran di bawah supaya sambungan berfungsi di semua laman"
+  },
+  "optionsWelcomeStep2": {
+    "message": "Hanya arahkan tetikus ke atas imej di mana-mana halaman web"
+  },
+  "optionsWelcomeStep3": {
+    "message": "Tekan Escape untuk menutup zum"
+  },
+  "optionsWelcomeCloseButton": {
+    "message": "Faham! 👍"
+  },
+  "optionsPermissionsTitle": {
+    "message": "Kebenaran Akses Laman Web"
+  },
+  "optionsPermissionsWhyTitle": {
+    "message": "Mengapa kebenaran ini diperlukan?"
+  },
+  "optionsPermissionsWhyDescription": {
+    "message": "Hover Zoom memerlukan akses ke halaman web untuk mengesan imej dan memaparkan pratonton. Tanpa kebenaran ini, sambungan hanya boleh berfungsi pada halaman aktif semasa."
+  },
+  "optionsPermissionsGrantButton": {
+    "message": "Berikan kebenaran kepada semua laman"
+  },
+  "optionsPermissionsRevokeButton": {
+    "message": "Batalkan kebenaran"
+  },
+  "optionsExtensionStateTitle": {
+    "message": "Status Sambungan"
+  },
+  "optionsReinjectButton": {
+    "message": "Aktifkan semula pada semua tab terbuka"
+  },
+  "optionsReinjectDescription": {
+    "message": "Gunakan butang ini jika sambungan tidak berfungsi pada tab yang sudah dibuka."
+  },
+  "optionsInfoTitle": {
+    "message": "Maklumat"
+  },
+  "optionsInfoVersion": {
+    "message": "Versi:"
+  },
+  "optionsInfoStatus": {
+    "message": "Status:"
+  },
+  "optionsInfoActivationProblemTitle": {
+    "message": "Masalah pengaktifan?"
+  },
+  "optionsInfoActivationStep1": {
+    "message": "Berikan kebenaran di atas"
+  },
+  "optionsInfoActivationStep2": {
+    "message": "Muat semula halaman di mana sambungan tidak berfungsi"
+  },
+  "optionsInfoActivationStep3": {
+    "message": "Gunakan butang \"Aktifkan semula pada semua tab terbuka\""
   }
 }
